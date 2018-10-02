@@ -1,0 +1,18 @@
+.products-main {
+  background-color: #ccc;
+  width: 86%;
+  margin: 0 auto;
+}
+
+.products-header {
+  text-align: center;
+  font-size: 26px;
+}
+
+.products-items {
+  width: 90%;
+  padding-top: 2em;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #aaa;
+}
