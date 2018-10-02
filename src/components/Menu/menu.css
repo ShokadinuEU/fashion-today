@@ -1,0 +1,32 @@
+.main-menu {
+  display: flex;
+  float: left;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5em;
+}
+
+.brand {
+  display: inline-block;
+  padding: 1em 2em;
+  cursor: default;
+}
+
+.menu-link {
+  display: inline-flex;
+  padding: 1em 2em;
+}
+
+.menu-link a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.shop-cart {
+  padding: 0.5em 1em;
+  border-radius: 50%;
+  border: 2px solid #222;
+  margin: auto 1em;
+  cursor: pointer;
+}
