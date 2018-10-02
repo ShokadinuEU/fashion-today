@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './brand.css'
 
 class Brands extends Component {
   render() {

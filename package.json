@@ -26,10 +26,16 @@
   "description": "Simple Fashion WEB app",
   "main": "index.js",
   "devDependencies": {
+    "css-loader": "^1.0.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0"
   },
-  "keywords": ["fashion", "today", "fashion-men", "fashion-women" ],
+  "keywords": [
+    "fashion",
+    "today",
+    "fashion-men",
+    "fashion-women"
+  ],
   "author": "Timotei Dumitru (dumitru.timy@gmail.com), https://github.com/ShokadinuEU",
   "license": "ISC"
 }

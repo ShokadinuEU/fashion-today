@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
 import Menu from './components/Menu/Menu';
-import Header from './components/Header/Header';
-import Products from './components/Products/Products';
-import Brands from './components/Brands/Brands';
-import Footer from './components/Footer/Footer';
+// import Header from './components/Header/Header';
+// import Products from './components/Products/Products';
+// import Brands from './components/Brands/Brands';
+// import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello From Main APP</h1>
         <Menu />
-        <Header />
+        {/* <Header />
         <Products />
         <Brands />
-        <Footer />
+        <Footer /> */}
       </div>
     );
   }
