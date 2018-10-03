@@ -35,7 +35,7 @@ class Products extends Component {
     const { isLoading, users } = this.state;
     return (
       <div>
-        <h2>Random User</h2>
+        <h2>Random Items</h2>
         <div>
           {!isLoading ? (
             users.map(user => {
