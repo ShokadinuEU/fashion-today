@@ -1,8 +1,10 @@
 {
   "name": "fashion-today",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "home": "https://shokadinueu.github.io/fashion-today",
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-json-view": "^1.19.1",
@@ -13,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,6 +31,7 @@
   "main": "index.js",
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "gh-pages": "^2.0.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0"
   },

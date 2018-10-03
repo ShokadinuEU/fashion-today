@@ -6,7 +6,9 @@ import Products from './components/Products/Products';
 // import Brands from './components/Brands/Brands';
 // import Footer from './components/Footer/Footer';
 
+
 class App extends Component {
+
   render() {
     return (
       <div className="App">
