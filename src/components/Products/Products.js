@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './products.css'
+import './products.scss'
 import axios from 'axios';
 
 
@@ -43,10 +43,9 @@ class Products extends Component {
       <div className="products-wrapper">
         {data.map(item =>
           <div key={item.id} className="item">
-            <div className="item-image">Image here</div>
+            <div className="item-image"></div>
             <span className="item-detail">{item.name}</span>
             <span className="item-detail">{item.price}</span>
-            <span className="item-detail">{item.sold}</span>
             <button key={item.id} className="buy-it">Buy It</button>
           </div>
         )}
