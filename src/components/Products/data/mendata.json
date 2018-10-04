@@ -1,58 +1,50 @@
 [
   {
     "id": 1,
-    "image": "http://www.image1.com",
-    "name": "New Mens Superdry Arctic Hooded Cliff Hiker Jacket Nautical Navy",
-    "price": "£34.99",
+    "name": "Dolce & Gabbana Blazer",
+    "price": "£276.99",
     "sold": "283 sold"
   },
   {
     "id": 2,
-    "image": "http://www.image2.com",
-    "name": "New Mens Superdry Arctic Hooded Cliff Hiker Jacket Black",
-    "price": "£34.99",
+    "name": "Boglioli Blazer",
+    "price": "£434.99",
     "sold": "270 sold"
   },
   {
     "id": 3,
-    "image": "http://www.image3.com",
-    "name": "Adults Waterproof Suit Jacket & Trousers Packaway Rain Set Womens Mens Ladies",
-    "price": "£9.99",
+    "name": "Corneliani ID Blazer",
+    "price": "£569.99",
     "sold": "189 sold"
   },
   {
     "id": 4,
-    "image": "http://www.image4.com",
-    "name": "Regatta Mens Backmoor 3in1 Waterproof Breathable Isotex 5000 Classic Jacket Coat",
-    "price": "£24.98",
+    "name": "Corneliani Classic Fitted",
+    "price": "£824.98",
     "sold": "158 sold"
   },
   {
     "id": 5,
-    "image": "http://www.image5.com",
-    "name": "Mens Hi Vis Visibility Waterproof Bomber Jacket | Hi Viz Work Wear Coat",
-    "price": "£20.95",
+    "name": "Polo Ralph Lauren Herring",
+    "price": "£420.95",
     "sold": "115 sold"
   },
   {
     "id": 6,
-    "image": "http://www.image6.com",
-    "name": "Mens Padded Bubble Coat Hooded Quilted Puffer Jacket Warm Winter Fashion M-XXXXL",
-    "price": "£3.98",
+    "name": "Boglioli Blazer",
+    "price": "£563.98",
     "sold": "105 sold"
   },
   {
     "id": 7,
-    "image": "http://www.image7.com",
-    "name": "Regatta Mens Telmar 3in1 Waterproof Outdoor Hiking Walking Classic Jacket Coat",
-    "price": "£24.98",
-    "sold": "105 sold"
+    "name": "HUGO Men's Astian",
+    "price": "£324.98",
+    "sold": "305 sold"
   },
   {
     "id": 8,
-    "image": "http://www.image8.com",
-    "name": "Regatta Mens Thor / Barricade Full Zip Anti Pill Fleece Workwear Jacket TRF532",
-    "price": "£7.99",
+    "name": "Massimo Alba Blazer",
+    "price": "£787.99",
     "sold": "105 sold"
   }
 ]

@@ -1,5 +1,4 @@
 .products-main {
-  background-color: #ccc;
   width: 86%;
   margin: 0 auto;
 }
@@ -10,28 +9,45 @@
 }
 
 .products-wrapper {
+  padding-left: 1.3em;
+  justify-content: space-between;
   margin: 0 auto;
-  background-color: #ccc;
 }
 
 .item {
-  float: left;
-  width: 17vw;
+  width: 16.5vw;
   height: 28vh;
-  background-color: #aaa;
-  display: inline-block;
-  margin: 0 auto;
-  padding: 0.3em 0.5em;
-  margin: 0.2em 0.4em;
+  display: inline-grid;
+  padding: 0.5em 0.4em;
+  margin: 1.4em 0.4em;
+  overflow: inherit;
+  transition: all 1s ease-in-out;
+}
 
+.item:hover {
+  border-radius: 15px;
+  border: 2px solid green;
+  background-color: rgb(209, 208, 124);
+  transition: all .5s ease-in-out;
 }
 
 .item-detail {
-  display: block;
-  margin: 0.2em 0.4em;
+  margin: 0.1em 0.4em;
+  text-align: center;
 }
+
+.item-image {
+  border: 1px solid red;
+  height: 9em;
+}
+
 
 .buy-it {
   display: block;
   margin: 0 auto;
+  border-radius: 38%;
+  background-color: rgb(152, 219, 182);
+  padding: 0.1em 1em;
+  font-weight: 600;
+  font-size: 1em;
 }
