@@ -10,18 +10,20 @@
 
 .products-wrapper {
   padding-left: 1.3em;
-  justify-content: space-between;
+  // justify-content: space-between;
   margin: 0 auto;
+  display: inline-block;
 }
 
 .item {
-  width: 16.5vw;
-  height: 34vh;
+  width: 200px;
+  max-width: 230px;
+  height: 340px;
   display: inline-grid;
   padding: 0.5em 0.4em;
-  margin: 1.4em 0.4em;
-  overflow: inherit;
+  margin: 0.7em 0.35em;
   transition: all 1s ease-in-out;
+  // border: 1px solid blue;
 
   &:hover {
     border-radius: 15px;
@@ -29,6 +31,7 @@
     background-color: rgb(209, 208, 124);
     transition: all .5s ease-in-out;
   }
+  
 }
 
 .item-detail {
@@ -38,14 +41,14 @@
 
 .item-image {
   // border: 1px solid red;
-  height: 13.5em;
+  height: 16.4em;
   background-size: cover;
   background-image: url('../../data/img/dataItems/men/image-sprite.png');
 }
 
 @for $y from 1 through 8 {
   .item:nth-child(#{$y}) .item-image {
-    background-position-y: -1 * ($y - 1) * 13.65em;
+    background-position-y: -1 * ($y - 1) * 16.6em;
   }
 }
 

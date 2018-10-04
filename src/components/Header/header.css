@@ -1,17 +1,17 @@
 .main-header {
   position: relative;
   margin: 0 auto;
+  height: 35vh;
   width: 90%;
-  height: 36vh;
   background-image: url("../../data/img/landing2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .header-text {
   position: absolute;
-  width: 36%;
+  width: auto;
   margin: 8em 0 0 4em;
   padding: 0.2em 0.6em;
   background-color: rgb(185, 182, 182, 0.2);
