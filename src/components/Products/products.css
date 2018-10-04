@@ -9,14 +9,29 @@
   font-size: 26px;
 }
 
-.products-items {
-  width: 90%;
-  padding-top: 2em;
+.products-wrapper {
   margin: 0 auto;
-  text-align: center;
-  background-color: #aaa;
+  background-color: #ccc;
 }
 
-.items {
-  text-align: left;
+.item {
+  float: left;
+  width: 17vw;
+  height: 28vh;
+  background-color: #aaa;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.3em 0.5em;
+  margin: 0.2em 0.4em;
+
+}
+
+.item-detail {
+  display: block;
+  margin: 0.2em 0.4em;
+}
+
+.buy-it {
+  display: block;
+  margin: 0 auto;
 }

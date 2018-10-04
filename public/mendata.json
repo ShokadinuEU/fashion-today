@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "image": "http://www.image1.com",
+    "image": "image1",
     "name": "New Mens Superdry Arctic Hooded Cliff Hiker Jacket Nautical Navy",
     "price": "£34.99",
     "sold": "283 sold"
   },
   {
     "id": 2,
-    "image": "http://www.image2.com",
+    "image": "image2",
     "name": "New Mens Superdry Arctic Hooded Cliff Hiker Jacket Black",
     "price": "£34.99",
     "sold": "270 sold"
   },
   {
     "id": 3,
-    "image": "http://www.image3.com",
+    "image": "image3",
     "name": "Adults Waterproof Suit Jacket & Trousers Packaway Rain Set Womens Mens Ladies",
     "price": "£9.99",
     "sold": "189 sold"
   },
   {
     "id": 4,
-    "image": "http://www.image4.com",
+    "image": "image4",
     "name": "Regatta Mens Backmoor 3in1 Waterproof Breathable Isotex 5000 Classic Jacket Coat",
     "price": "£24.98",
     "sold": "158 sold"
   },
   {
     "id": 5,
-    "image": "http://www.image5.com",
+    "image": "image5",
     "name": "Mens Hi Vis Visibility Waterproof Bomber Jacket | Hi Viz Work Wear Coat",
     "price": "£20.95",
     "sold": "115 sold"
   },
   {
     "id": 6,
-    "image": "http://www.image6.com",
+    "image": "image6",
     "name": "Mens Padded Bubble Coat Hooded Quilted Puffer Jacket Warm Winter Fashion M-XXXXL",
     "price": "£3.98",
     "sold": "105 sold"
   },
   {
     "id": 7,
-    "image": "http://www.image7.com",
+    "image": "image7",
     "name": "Regatta Mens Telmar 3in1 Waterproof Outdoor Hiking Walking Classic Jacket Coat",
     "price": "£24.98",
     "sold": "105 sold"
   },
   {
     "id": 8,
-    "image": "http://www.image8.com",
+    "image": "image8",
     "name": "Regatta Mens Thor / Barricade Full Zip Anti Pill Fleece Workwear Jacket TRF532",
     "price": "£7.99",
     "sold": "105 sold"

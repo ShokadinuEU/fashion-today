@@ -1,60 +1,37 @@
 import React, { Component } from 'react'
-// import Product from './Product'
-import axios from "axios";
 // import dataMen from '../Products/data/mendata.json'
 import './products.css'
 
 class Products extends Component {
-  state = {
-    users: [],
-    isLoading: true,
-    errors: null
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: [],
+    };
+  }
 
-  componentDidMount() {
-    axios
-      .get("https://randomuser.me/api/?results=5")
-      .then(response =>
-        response.data.results.map(user => ({
-          name: `${user.name.first} ${user.name.last}`,
-          username: `${user.login.username}`,
-          email: `${user.email}`,
-          image: `${user.picture.thumbnail}`
-        }))
-      )
-      .then(users => {
-        this.setState({
-          users,
-          isLoading: false
-        });
-      })
-      .catch(error => this.setState({ error, isLoading: false }));
+  componentDidMount(){
+    fetch('./mendata.json')
+      .then(response => response.json())
+      .then(data => this.setState({ data }))
   }
 
   render() {
-    const { isLoading, users } = this.state;
+    const { data } = this.state;
     return (
-      <div>
-        <h2>Random Items</h2>
-        <div>
-          {!isLoading ? (
-            users.map(user => {
-              const { username, name, email, image } = user;
-              return (
-                <div key={username}>
-                  <p>{name}</p>
-                  <div>
-                    <img src={image} alt={name} />
-                  </div>
-                  <p>{email}</p>
-                  <hr />
-                </div>
-              );
-            })
-          ) : (
-            <p>Loading...</p>
-          )}
-        </div>
+      <div className="products-main">
+      <h1 className="products-header">-----Latest Products-----</h1>
+      <div className="products-wrapper">
+        {data.map(item =>
+          <div key={item.id} className="item">
+            <span className="item-detail">{item.image}</span>
+            <span className="item-detail">{item.name}</span>
+            <span className="item-detail">{item.price}</span>
+            <span className="item-detail">{item.sold}</span>
+            <button key={item.id} className="buy-it">Buy It</button>
+          </div>
+        )}
+      </div>
       </div>
     );
   }
