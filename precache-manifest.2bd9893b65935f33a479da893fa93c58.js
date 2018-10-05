@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/fashion-today/static/js/runtime~main.9b82c716.js"
   },
   {
-    "revision": "8d647932cef05eb2a934",
-    "url": "/fashion-today/static/js/main.8d647932.chunk.js"
+    "revision": "c9f6d58101f122bd947a",
+    "url": "/fashion-today/static/js/main.c9f6d581.chunk.js"
   },
   {
     "revision": "c0094fec0cdac2be8aa6",
     "url": "/fashion-today/static/js/1.c0094fec.chunk.js"
   },
   {
-    "revision": "8d647932cef05eb2a934",
-    "url": "/fashion-today/static/css/main.6b94a015.chunk.css"
+    "revision": "c9f6d58101f122bd947a",
+    "url": "/fashion-today/static/css/main.8333ae2b.chunk.css"
   },
   {
-    "revision": "173bb2cba0b11ca0316669aaffd655a4",
+    "revision": "f63245f7843507a1b949f3c9159af162",
     "url": "/fashion-today/index.html"
   }
 ];
