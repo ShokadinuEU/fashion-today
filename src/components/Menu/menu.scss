@@ -31,3 +31,44 @@
   margin: auto 1em;
   cursor: pointer;
 }
+
+@media screen and (max-width: 769px) {
+  .menu-main {
+    display: block;
+  }
+  .menu-link {
+    display: block;
+    float: left;
+    padding: 1em 0.1em 0.2em 0.2em;
+    font-size: 1.5em;
+  }
+  .brand{
+    font-size: 1.4em;
+    padding: 1em 0.1em 0.2em 1.2em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+   ul {
+    display: flex;
+    padding: 1.3em 0.1em 0.2em 0.2em;
+    font-size: 0.7em;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .brand{
+    // display: none;
+    font-size: 0.8em;
+    padding: 1em 0.1em 0.2em 1.2em;
+  }
+  .shop-cart {
+    display: content;
+    padding: 0.5em 1em;
+    border-radius: 50%;
+    border: 2px solid #222;
+    margin: auto 1em;
+    cursor: pointer;
+    font-size: 0.5em;
+  }
+}

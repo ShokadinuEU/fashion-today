@@ -27,3 +27,20 @@
   font-weight: 600;
   font-size: 0.7em;
 }
+
+@media screen and (max-width: 400px) {
+  .header-text {
+    font-size: 0.6em;
+    margin: 12em 0 0 2em;
+    line-height: 0.5em;
+    background-color: rgba(185, 182, 182, 0.4);
+    h4 {
+      font-size: 1.4em;
+      line-height: 0.5em;
+    }
+  }
+  .header-text button {
+    font-size: 0.9em;
+  }
+
+}

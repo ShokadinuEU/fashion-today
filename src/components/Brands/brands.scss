@@ -17,3 +17,15 @@
   background: url('../../data/img/dataItems/brands/css_sprites_brands.png');
   background-size: cover;
 }
+
+@media screen and (max-width: 400px){
+  .brands-main {
+    height: 120px;
+  }
+  .brands-header {
+    font-size: 1.2em;
+  }
+  .brands-image {
+    height: 100px;
+  }
+}

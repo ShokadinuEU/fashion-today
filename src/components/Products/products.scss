@@ -12,7 +12,7 @@
 
 .products-wrapper {
   width: 100%;
-  max-width: 1178px;
+  max-width: 1176px;
   margin: 0 auto;
 }
 // each individual item
@@ -59,4 +59,25 @@
   padding: 0.1em 1em;
   font-weight: 600;
   font-size: 1em;
+}
+
+@media screen and (max-width: 400px) {
+  .products-main {
+    width: 100%;
+  }
+  .products-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .item {
+    display: block;
+    margin: 0.1em auto;
+    text-align: center;
+    height: 21em;
+  }
+  .buy-it {
+    display: inherit;
+    justify-content: center;
+    text-align: center;
+  }
 }

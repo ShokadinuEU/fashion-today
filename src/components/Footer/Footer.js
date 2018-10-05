@@ -6,10 +6,6 @@ class Footer extends Component {
     return (
       // footer with link to github creator profile
       <div className="main-footer">
-        {/* <div className="footer-main">
-          <p className="footer-header">-----Shopping Today-----</p>
-          <a href="https://github.com/ShokadinuEU" target="_blank" className="footer-brand">&copy;   ShokadinuEU   &copy;</a>
-        </div> */}
         <div className="our-store">
           <h4>Our Store</h4>
           <span className="address">141 South Grand Avenue</span>

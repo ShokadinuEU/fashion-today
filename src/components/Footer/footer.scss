@@ -29,3 +29,16 @@
 .support span {
   display: block;
 }
+
+@media screen and (max-width: 400px) {
+  .blog-posts {
+    line-height: 1.1em;
+    font-size: 1.04em;
+    margin-bottom: 1em;
+    h5 {
+      line-height: 1em;
+      font-size: 1em;
+      
+    }
+  }
+}
