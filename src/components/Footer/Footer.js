@@ -4,6 +4,7 @@ import './footer.scss'
 class Footer extends Component {
   render() {
     return (
+      // footer with link to github creator profile
       <div>
         <div className="footer-main">
           <p className="footer-header">-----Shopping Today-----</p>

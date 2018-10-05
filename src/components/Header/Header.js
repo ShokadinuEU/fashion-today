@@ -4,6 +4,7 @@ import './header.scss'
 class Header extends Component {
   render() {
     return (
+      // header section, the big image and the text next to it
       <div className="main-header">
         <div className="header">
         </div>

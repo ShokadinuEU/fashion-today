@@ -4,6 +4,7 @@ import './menu.scss'
 class Menu extends Component {
   render() {
     return (
+      // top menu section
       <div className="main-menu">
         <span className="brand"> | Fashion Today |</span>
         <ul>
