@@ -16,9 +16,10 @@ class Footer extends Component {
         <div className="blog-posts">
           <h4>Blog Posts</h4>
           <p className="complains">Lorem ipsum dolor sit amet.</p>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-          <p className="complains">Lorem ipsum dolor sit amet.</p>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br></br><br></br>
+          <span className="owner"> | Owner <a href="https://github.com/ShokadinuEU"
+          target="_blank" rel="having fun to build it" className="sub-owner">
+           ShokadinuEU</a>&reg; | </span>
         </div>
         <div className="support">
           <h4>Support</h4>

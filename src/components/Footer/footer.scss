@@ -1,5 +1,5 @@
 .main-footer {
-  display: flex;
+  display: block;
   margin-top: 3em;
   background-color: rgb(101, 110, 103);
   justify-content: space-between;
@@ -7,36 +7,157 @@
   padding: 0 0.7em;
 }
 
-@media (min-width: 481px) and (max-width: 800px) {
+.owner {
+  color: rgb(202, 187, 125);
+  font-weight: 600;
+}
+
+.sub-owner {
+  text-decoration: none;
+  color: rgb(187, 216, 108);
+  font-weight: 600;
+}
+
+@media (min-width: 1281px) {
+  .main-footer {
+    display: flex;
+    font-size: 1em;
+    justify-content: space-around;
+    padding: 0 0.2em;
+  }
   .our-store span {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   h4 {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   p {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .blog-posts {
     margin-bottom: 1em;
   }
   .blog-posts p {
-    font-size: 1.2em;
+    font-size: 1em;
+  }
+  .blog-posts span {
+    font-size: 1em;
   }
   .support span {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
     display: block;
   }
   .our-store span {
     display: block;
   }
-  .support {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .main-footer {
+    display: flex;
+    font-size: 1em;
+    justify-content: space-around;
+    padding: 0 0.2em;
+  }
+  .our-store span {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .blog-posts {
+    margin-bottom: 1em;
+  }
+  .blog-posts p {
+    font-size: 1em;
+  }
+  .blog-posts span {
+    font-size: 1em;
+  }
+  .support span {
+    font-size: 1em;
+    font-weight: 600;
     display: block;
-    padding-right: 0.1em;
-    margin-right: 0.1em;
+  }
+  .our-store span {
+    display: block;
   }
 }
+
+@media (min-width: 801px) and (max-width: 1024px) {
+  .main-footer {
+    display: flex;
+    font-size: 1em;
+    justify-content: space-around;
+    padding: 0 0.2em;
+  }
+  .our-store span {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .blog-posts {
+    margin-bottom: 1em;
+  }
+  .blog-posts p {
+    font-size: 1em;
+  }
+  .blog-posts span {
+    font-size: 1em;
+  }
+  .support span {
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+  }
+  .our-store span {
+    display: block;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  .main-footer {
+    display: inline-flex;
+    font-size: 1em;
+    justify-content: space-between;
+    padding: 0 0.2em;
+  }
+  .our-store span {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .blog-posts {
+    margin-bottom: 1em;
+  }
+  .blog-posts p {
+    font-size: 1em;
+  }
+  .blog-posts span {
+    font-size: 1em;
+  }
+  .support span {
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+  }
+  .our-store span {
+    display: block;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .main-footer {
     display: inline-flex;
