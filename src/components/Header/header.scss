@@ -29,11 +29,12 @@
   font-size: 0.7em;
 }
 
-@media (min-width: 801px) and (max-width: 1024px) {
+@media (min-width: 1281px) {
   .header-text {
     font-size: 1.1em;
-    margin: 14em 0 0 2em;
+    margin: 9em 0 0 2em;
     line-height: 0.5em;
+    font-size: 0.9em;
     background-color: rgba(185, 182, 182, 0.4);
     h4 {
       font-size: 1.3em;
@@ -41,7 +42,41 @@
     }
   }
   .header-text button {
-    font-size: 1.2em;
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .header-text {
+    font-size: 1.1em;
+    margin: 10em 0 0 2em;
+    line-height: 0.5em;
+    font-size: 0.9em;
+    background-color: rgba(185, 182, 182, 0.4);
+    h4 {
+      font-size: 1.3em;
+      line-height: 0.5em;
+    }
+  }
+  .header-text button {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+  .header-text {
+    font-size: 1.1em;
+    margin: 12em 0 0 3em;
+    line-height: 0.5em;
+    font-size: 0.9em;
+    background-color: rgba(185, 182, 182, 0.4);
+    h4 {
+      font-size: 1.3em;
+      line-height: 0.5em;
+    }
+  }
+  .header-text button {
+    font-size: 1em;
   }
 }
 
@@ -63,9 +98,9 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .header-text {
-    font-size: 0.6em;
-    margin: 12.5em 0 0 2em;
+    margin: 12em 0 0 1em;
     line-height: 0.5em;
+    font-size: 0.6em;
     background-color: rgba(185, 182, 182, 0.5);
     h4 {
       font-size: 1.4em;

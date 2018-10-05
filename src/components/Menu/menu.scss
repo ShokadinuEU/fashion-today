@@ -1,20 +1,16 @@
 .main-menu {
-  // display: inline-block;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  // justify-content: space-between;
   margin-bottom: 3em;
 }
 
 .brand {
-  // display: inline-block;
   padding: 1em 2em;
   cursor: default;
 }
 
 .menu-link {
-  // display: inline-flex;
   padding: 1em 2em;
 }
 
@@ -25,53 +21,43 @@
 }
 
 .shop-cart {
-  // display: inline-block;
   padding: 0.5em 1em;
   border-radius: 50%;
   border: 2px solid #222;
-  // margin: auto 1em;
   cursor: pointer;
+}
+
+.shop-cart {
+  float: right;
 }
 
 @media (min-width: 1281px) {
   
-  //CSS
-  
-}
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  //CSS
-  
-}
-
-@media (min-width: 801px) and (max-width: 1024px) {
-  
   .menu-main {
     width: 100%;
-    max-width: 1024px;
   }
   .menu ul{
     display: table;
     margin: 0 auto;
+    padding-left: 5em;
   }
   .menu-link {
     display: block;
     float: left;
-    padding: 1em 0.2em 0.2em 0.2em;
-    font-size: 2em;
+    padding: 1em 0.4em 0.2em 0.4em;
+    font-size: 1.5em;
   }
   .brand{
-    width: 77vw;
-    padding: 1em 0.1em 0.2em 1.2em;
-    font-size: 2.4em;
+    width: 35vw;
+    padding: 0.5em 0.1em 0.2em 1.2em;
+    font-size: 2em;
   }
   .shop-cart {
-    font-size: 1.4em;
+    font-size: 1em;
     padding: 0.5em 1em;
     border-radius: 50%;
     border: 2px solid #222;
-    margin: 1em 1em;
+    margin: 1em 0.1rem;
     cursor: pointer;
   }
   .brand,
@@ -82,6 +68,78 @@
   
 }
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .menu-main {
+    width: 100%;
+  }
+  .menu ul{
+    display: table;
+    margin: 0 auto;
+    padding-left: 5em;
+  }
+  .menu-link {
+    display: block;
+    float: left;
+    padding: 1em 0.4em 0.2em 0.4em;
+    font-size: 1.5em;
+  }
+  .brand{
+    width: 35vw;
+    padding: 0.5em 0.1em 0.2em 1.2em;
+    font-size: 2em;
+  }
+  .shop-cart {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 50%;
+    border: 2px solid #222;
+    margin: 1em 0.1rem;
+    cursor: pointer;
+  }
+  .brand,
+  .shop-cart {
+    display: -webkit-inline-box;
+    justify-content: space-between;
+  }
+  
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+  .menu-main {
+    width: 100%;
+  }
+  .menu ul{
+    display: table;
+    margin: 0 auto;
+    padding-left: 5em;
+  }
+  .menu-link {
+    display: block;
+    float: left;
+    padding: 1em 0.2em 0.2em 0.2em;
+    font-size: 1.6em;
+  }
+  .brand{
+    width: 35vw;
+    padding: 1em 0.1em 0.2em 1.2em;
+    font-size: 2em;
+  }
+  .shop-cart {
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    border-radius: 50%;
+    border: 2px solid #222;
+    margin: 1em 0.1rem;
+    cursor: pointer;
+  }
+  .brand,
+  .shop-cart {
+    display: -webkit-inline-box;
+    justify-content: space-between;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 800px) {
   .menu-main {
     width: 100%;
@@ -90,24 +148,27 @@
   .menu ul{
     display: table;
     margin: 0 auto;
+    font-size: 0.8em;
+    padding-left: 8em;
   }
   .menu-link {
     display: block;
     float: left;
-    padding: 1em 0.2em 0.2em 0.2em;
+    padding: 1em 0.2em 0.2em 0.1em;
     font-size: 1.7em;
   }
   .brand{
-    width: 77vw;
+    width: 35vw;
     padding: 1em 0.1em 0.2em 1.2em;
-    font-size: 2em;
+    font-size: 1.7em;
   }
   .shop-cart {
-    font-size: 1.2em;
+    float: right;
+    font-size: 1em;
     padding: 0.5em 1em;
     border-radius: 50%;
     border: 2px solid #222;
-    margin: 1em 1em;
+    margin: 1em 1rem;
     cursor: pointer;
   }
   .brand,
@@ -120,11 +181,9 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .menu-main {
     width: 100%;
-    max-width: 480px;
   }
   .menu ul{
     display: flex;
-    margin: 0 auto;
   }
   .menu-link {
     display: block;
@@ -133,7 +192,7 @@
     font-size: 1em;
   }
   .brand{
-    width: 62vw;
+    width: 45vw;
     padding: 0.5em 0.1em 0.2em 1.2em;
     font-size: 1.2em;
   }
@@ -142,7 +201,7 @@
     padding: 0.5em 1em;
     border-radius: 50%;
     border: 2px solid #222;
-    margin: 1em 2em;
+    margin: 1em 1em;
     cursor: pointer;
   }
   .brand,

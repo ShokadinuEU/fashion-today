@@ -17,7 +17,6 @@
 // each individual item
 .item {
   width: 200px;
-  // display: inline-grid;
   padding: 0.5em 0.4em;
   margin: 0.7em 0.35em;
   transition: all 1s ease-in-out;
@@ -56,6 +55,72 @@
   padding: 0.1em 1em;
   font-weight: 600;
   font-size: 1em;
+}
+
+@media (min-width: 1281px) {
+  .products-main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .products-header {
+    text-align: center;
+    font-size: 2.2em;
+  }
+  .products-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .item {
+    display: inline-grid;
+    height: 25em;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    margin: 1em auto;
+  }
+  .buy-it {
+    display: block;
+    padding: 0.5em 1em;
+  }
+  .item-detail {
+    display: block;
+    margin: 0.2em 0.2em;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .products-main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .products-header {
+    text-align: center;
+    font-size: 2.2em;
+  }
+  .products-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .item {
+    display: inline-grid;
+    height: 25em;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    margin: 1em auto;
+  }
+  .buy-it {
+    display: block;
+    padding: 0.5em 1em;
+  }
+  .item-detail {
+    display: block;
+    margin: 0.2em 0.2em;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
 }
 
 @media (min-width: 801px) and (max-width: 1024px) {

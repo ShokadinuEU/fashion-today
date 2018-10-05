@@ -12,9 +12,57 @@
 .brands-image {
   height: 190px;
   width: 77vw;
-  max-width: 1440px;
   background: url('../../data/img/dataItems/brands/css_sprites_brands.jpg');
   background-size: cover;
+}
+
+@media (min-width: 1600px) {
+  .brands-main {
+    height: 350px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .brands-header {
+    font-size: 1.7em;
+    margin-bottom: 1.5em;
+  }
+  .brands-image {
+    height: 155px;
+    width: 50vw;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1281px) {
+  .brands-main {
+    height: 280px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .brands-header {
+    font-size: 1.7em;
+    margin-bottom: 1.5em;
+  }
+  .brands-image {
+    height: 135px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .brands-main {
+    height: 280px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .brands-header {
+    font-size: 1.7em;
+    margin-bottom: 1.5em;
+  }
+  .brands-image {
+    height: 135px;
+    overflow: hidden;
+  }
 }
 
 @media (min-width: 801px) and (max-width: 1024px) {
