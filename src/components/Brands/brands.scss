@@ -6,7 +6,6 @@
 }
 
 .brands-header {
-  // margin: 0 auto;
   text-align: center;
 }
 
@@ -18,7 +17,22 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 450px){
+@media (min-width: 481px) and (max-width: 800px) {
+  .brands-main {
+    height: 280px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .brands-header {
+    font-size: 2em;
+  }
+  .brands-image {
+    height: 135px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
   .brands-main {
     height: 120px;
   }

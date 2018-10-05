@@ -15,9 +15,9 @@ class Footer extends Component {
         </div>
         <div className="blog-posts">
           <h4>Blog Posts</h4>
-          <h5 className="complains">Lorem ipsum dolor sit amet.</h5>
+          <p className="complains">Lorem ipsum dolor sit amet.</p>
           <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-          <h5 className="complains">Lorem ipsum dolor sit amet.</h5>
+          <p className="complains">Lorem ipsum dolor sit amet.</p>
           <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
         </div>
         <div className="support">

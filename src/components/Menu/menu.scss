@@ -1,20 +1,20 @@
 .main-menu {
-  display: flex;
+  // display: inline-block;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  justify-content: space-between;
+  // justify-content: space-between;
   margin-bottom: 3em;
 }
 
 .brand {
-  display: inline-block;
+  // display: inline-block;
   padding: 1em 2em;
   cursor: default;
 }
 
 .menu-link {
-  display: inline-flex;
+  // display: inline-flex;
   padding: 1em 2em;
 }
 
@@ -25,50 +25,99 @@
 }
 
 .shop-cart {
+  // display: inline-block;
   padding: 0.5em 1em;
   border-radius: 50%;
   border: 2px solid #222;
-  margin: auto 1em;
+  // margin: auto 1em;
   cursor: pointer;
 }
 
-@media screen and (max-width: 769px) {
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
   .menu-main {
-    display: block;
+    width: 100%;
+    max-width: 1024px;
+  }
+  .menu ul{
+    display: table;
+    margin: 0 auto;
   }
   .menu-link {
     display: block;
     float: left;
-    padding: 1em 0.1em 0.2em 0.2em;
-    font-size: 1.5em;
+    padding: 1em 0.2em 0.2em 0.2em;
+    font-size: 1.7em;
   }
   .brand{
-    font-size: 1.4em;
+    width: 77vw;
+    font-size: 1.1em;
     padding: 1em 0.1em 0.2em 1.2em;
-  }
-}
-
-@media screen and (max-width: 450px) {
-   ul {
-    display: flex;
-    padding: 1.3em 0.1em 0.2em 0.2em;
-    font-size: 0.7em;
-    width: 95%;
-    margin: 0 auto;
-    justify-content: center;
-  }
-  .brand{
-    // display: none;
-    font-size: 0.8em;
-    padding: 1em 0.1em 0.2em 1.2em;
+    font-size: 2em;
   }
   .shop-cart {
-    display: content;
+    font-size: 1.2em;
     padding: 0.5em 1em;
     border-radius: 50%;
     border: 2px solid #222;
-    margin: auto 1em;
+    margin: 1em 1em;
     cursor: pointer;
-    font-size: 0.5em;
+  }
+  .brand,
+  .shop-cart {
+    display: -webkit-inline-box;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu-main {
+    width: 100%;
+    max-width: 480px;
+  }
+  .menu ul{
+    display: flex;
+    margin: 0 auto;
+  }
+  .menu-link {
+    display: block;
+    float: left;
+    padding: 1em 0.2em 0.2em 0.2em;
+    font-size: 1em;
+  }
+  .brand{
+    width: 62vw;
+    padding: 0.5em 0.1em 0.2em 1.2em;
+    font-size: 1.2em;
+  }
+  .shop-cart {
+    font-size: 0.8em;
+    padding: 0.5em 1em;
+    border-radius: 50%;
+    border: 2px solid #222;
+    margin: 1em 2em;
+    cursor: pointer;
+  }
+  .brand,
+  .shop-cart {
+    display: -webkit-inline-box;
+    justify-content: space-between;
   }
 }

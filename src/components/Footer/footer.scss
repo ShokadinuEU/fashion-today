@@ -1,44 +1,73 @@
 .main-footer {
   display: flex;
-  // text-align: center;
   margin-top: 3em;
   background-color: rgb(101, 110, 103);
-  // line-height: 0.4em;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-size: 1.1em;
+  padding: 0 0.7em;
 }
 
-.footer-header {
-  font-size: 1.2em;
-}
-
-.footer-brand {
-  padding: 1em 0;
-  margin-left: 1em;
-  font-weight: 600;
-}
-
-.our-store span {
-  display: block;
-}
-
-.blog-posts {
-  line-height: 0.7em;
-  font-size: 1.04em;
-}
-
-.support span {
-  display: block;
-}
-
-@media screen and (max-width: 450px) {
+@media (min-width: 481px) and (max-width: 800px) {
+  .our-store span {
+    font-size: 1.2em;
+  }
+  h4 {
+    font-size: 1.1em;
+  }
+  p {
+    font-size: 0.9em;
+  }
   .blog-posts {
-    line-height: 1.1em;
-    font-size: 1.04em;
     margin-bottom: 1em;
-    h5 {
-      line-height: 1em;
-      font-size: 1em;
-      
-    }
+  }
+  .blog-posts p {
+    font-size: 1.2em;
+  }
+  .support span {
+    font-size: 1.2em;
+    font-weight: 600;
+    display: block;
+  }
+  .our-store span {
+    display: block;
+  }
+  .support {
+    display: block;
+    padding-right: 0.1em;
+    margin-right: 0.1em;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-footer {
+    display: inline-flex;
+    font-size: 1em;
+    justify-content: space-between;
+    padding: 0 0.2em;
+  }
+  .our-store span {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .blog-posts {
+    margin-bottom: 1em;
+  }
+  .blog-posts p {
+    font-size: 1em;
+  }
+  .blog-posts span {
+    font-size: 1em;
+  }
+  .support span {
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+  }
+  .our-store span {
+    display: block;
   }
 }
