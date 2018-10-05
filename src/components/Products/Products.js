@@ -40,6 +40,7 @@ class Products extends Component {
     return (
       <div className="products-main">
         <h1 className="products-header">-----Latest Products-----</h1>
+        <hr className="style-eight"/>
         <div className="products-wrapper">
           {data.map(item =>
             <div key={item.id} className="item">

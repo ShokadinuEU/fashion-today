@@ -1,7 +1,6 @@
 // main div of products
 .products-main {
-  width: 86%;
-  max-width: 1280px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -12,15 +11,13 @@
 
 .products-wrapper {
   width: 100%;
-  max-width: 1176px;
+  max-width: 870px;
   margin: 0 auto;
 }
 // each individual item
 .item {
   width: 200px;
-  max-width: 230px;
-  height: 340px;
-  display: inline-grid;
+  // display: inline-grid;
   padding: 0.5em 0.4em;
   margin: 0.7em 0.35em;
   transition: all 1s ease-in-out;
@@ -61,6 +58,39 @@
   font-size: 1em;
 }
 
+@media (min-width: 801px) and (max-width: 1024px) {
+  .products-main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .products-header {
+    text-align: center;
+    font-size: 2.2em;
+  }
+  .products-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .item {
+    display: inline-grid;
+    height: 25em;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    margin: 1em auto;
+  }
+  .buy-it {
+    display: block;
+    padding: 0.5em 1em;
+  }
+  .item-detail {
+    display: block;
+    margin: 0.2em 0.2em;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 800px) {
   .products-main {
     width: 90%;
@@ -75,19 +105,19 @@
     margin: 0 auto;
   }
   .item {
-    display: inline block;
+    display: inline-grid;
+    height: 25em;
     text-align: center;
-    height: 23em;
-    padding: 0 4.5rem;
+    padding: 0.5em 0.5em;
     margin: 1em auto;
   }
   .buy-it {
-    display: inherit;
-    justify-content: center;
-    text-align: center;
+    display: block;
+    padding: 0.5em 1em;
   }
   .item-detail {
-    margin: 0.1em 0.4em;
+    display: block;
+    margin: 0.2em 0.2em;
     text-align: center;
     font-size: 1.2em;
     font-weight: 600;
@@ -104,14 +134,12 @@
     margin: 0 auto;
   }
   .item {
-    // height: 32vh;
     display: block;
     margin: 0.4em auto;
     text-align: center;
     height: 21em;
   }
   .buy-it {
-    // display: inherit;
     justify-content: center;
     text-align: center;
   }
