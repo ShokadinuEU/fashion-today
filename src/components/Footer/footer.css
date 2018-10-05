@@ -1,0 +1,17 @@
+.footer-main {
+  text-align: center;
+  margin-top: 3em;
+  background-color: rgb(101, 110, 103);
+  line-height: 1em;
+}
+
+.footer-header {
+  padding: 0.7em 0 0 0;
+  font-size: 1.2em;
+}
+
+.footer-brand {
+  padding: 0.2em 0 1em 0;
+  display: block;
+  font-weight: 600;
+}

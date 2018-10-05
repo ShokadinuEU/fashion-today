@@ -5,7 +5,10 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <h1>Footer Component</h1>
+        <div className="footer-main">
+          <p className="footer-header">-----Shopping Today-----</p>
+          <a href="https://github.com/ShokadinuEU" target="_blank" className="footer-brand">&copy;   ShokadinuEU   &copy;</a>
+        </div>
       </div>
     )
   }

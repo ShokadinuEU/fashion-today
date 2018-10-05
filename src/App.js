@@ -4,7 +4,7 @@ import Menu from './components/Menu/Menu';
 import Header from './components/Header/Header';
 import Products from './components/Products/Products';
 // import Brands from './components/Brands/Brands';
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
         <Header />
         <Products />
         {/* <Brands /> */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
