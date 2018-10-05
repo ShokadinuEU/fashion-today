@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import './brand.css'
+import './brands.scss'
 
 class Brands extends Component {
   render() {
     return (
       // section underneath item list with various brands
-      <div>
-        <h1>Brands Component</h1>
+      <div className="brands-main">
+        <h1 className="brands-header">-----Brands We Represent-----</h1>
+        <div className="brands-image"></div>
       </div>
     )
   }

@@ -3,7 +3,7 @@ import './App.css';
 import Menu from './components/Menu/Menu';
 import Header from './components/Header/Header';
 import Products from './components/Products/Products';
-// import Brands from './components/Brands/Brands';
+import Brands from './components/Brands/Brands';
 import Footer from './components/Footer/Footer';
 
 
@@ -15,7 +15,7 @@ class App extends Component {
         <Menu />
         <Header />
         <Products />
-        {/* <Brands /> */}
+        <Brands />
         <Footer />
       </div>
     );

@@ -1,0 +1,19 @@
+.brands-main {
+  width: 90%;
+  height: 300px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.brands-header {
+  // margin: 0 auto;
+  text-align: center;
+}
+
+.brands-image {
+  height: 190px;
+  width: 77vw;
+  max-width: 1440px;
+  background: url('../../data/img/dataItems/brands/css_sprites_brands.png');
+  background-size: cover;
+}

@@ -12,7 +12,7 @@ class Menu extends Component {
           <li className="menu-link"><a href="/men">Men</a></li>
           <li className="menu-link"><a href="/about">About</a></li>
           <li className="menu-link"><a href="/support">Support</a></li>
-          <li className="menu-link"><a href="/qanda">Q&A</a></li>
+          <li className="menu-link"><a href="/faq">FAQ</a></li>
         </ul>
         <span className="shop-cart"><i className="fas fa-cart-arrow-down fa-2x"></i></span>
       </div>
