@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './menu.css'
+import './menu.scss'
 
 class Menu extends Component {
   render() {

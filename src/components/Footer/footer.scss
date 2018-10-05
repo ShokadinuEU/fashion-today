@@ -1,17 +1,18 @@
 .footer-main {
+  display: flex;
   text-align: center;
   margin-top: 3em;
   background-color: rgb(101, 110, 103);
-  line-height: 1em;
+  line-height: 0.4em;
+  justify-content: center;
 }
 
 .footer-header {
-  padding: 0.7em 0 0 0;
   font-size: 1.2em;
 }
 
 .footer-brand {
-  padding: 0.2em 0 1em 0;
-  display: block;
+  padding: 1em 0;
+  margin-left: 1em;
   font-weight: 600;
 }
