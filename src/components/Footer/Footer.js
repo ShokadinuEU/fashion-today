@@ -17,8 +17,8 @@ class Footer extends Component {
           <h4>Blog Posts</h4>
           <p className="complains">Lorem ipsum dolor sit amet.</p>
           <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br></br><br></br>
-          <span className="owner"> | Owner <a href="https://github.com/ShokadinuEU"
-          target="_blank" rel="having fun to build it" className="sub-owner">
+          <span className="owner"> | Created by <a href="https://github.com/ShokadinuEU"
+          target="_blank" rel="noopener noreferrer" className="sub-owner">
            ShokadinuEU</a>&reg; | </span>
         </div>
         <div className="support">

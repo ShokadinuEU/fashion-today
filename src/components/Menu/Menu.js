@@ -10,11 +10,11 @@ class Menu extends Component {
         <div className="shop-cart"><i className="fas fa-cart-arrow-down fa-2x"></i></div>
         <div className="menu">
           <ul>
-            <li className="menu-link"><a href="/women">Women</a></li>
-            <li className="menu-link"><a href="/men">Men</a></li>
-            <li className="menu-link"><a href="/about">About</a></li>
-            <li className="menu-link"><a href="/support">Support</a></li>
-            <li className="menu-link"><a href="/faq">FAQ</a></li>
+            <li className="menu-link"><a href="/">Women</a></li>
+            <li className="menu-link"><a href="/">Men</a></li>
+            <li className="menu-link"><a href="/">About</a></li>
+            <li className="menu-link"><a href="/">Support</a></li>
+            <li className="menu-link"><a href="/">FAQ</a></li>
           </ul>
         </div>
       </div>
