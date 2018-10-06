@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import ChangeImg from './Slider'
 import './header.scss'
 
 
