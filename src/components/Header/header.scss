@@ -2,7 +2,6 @@
   position: relative;
   margin: 0 auto;
   height: 35vh;
-  // top: 4vh;
   width: 90%;
   max-width: 1280px;
   background-image: url("../../data/img/landing2.jpg");
@@ -28,6 +27,15 @@
   margin: 0 0 1em 3em;
   font-weight: 600;
   font-size: 0.7em;
+  cursor: pointer;
+  &:hover {
+    width: auto;
+    padding: 0.3em 0.5em;
+    border-radius: 15px;
+    border: 2px solid green;
+    background-color: rgb(209, 208, 124);
+    transition: all .5s ease-in-out;
+  }
 }
 
 @media (min-width: 1281px) {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import ChangeImg from './Slider'
 import './header.scss'
+
 
 class Header extends Component {
   render() {
@@ -13,6 +15,7 @@ class Header extends Component {
           <h4>Check out the new treds</h4>
           <button className="header-button">Shop now</button>
         </div>
+        {/* <ChangeImg /> */}
       </div>
     )
   }

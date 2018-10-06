@@ -41,6 +41,7 @@
   background-image: url('../../data/img/dataItems/men/image-sprite.jpg');
 }
 // loop through sprite image
+
 @for $y from 1 through 8 {
   .item:nth-child(#{$y}) .item-image {
     background-position-y: -1 * ($y - 1) * 16.6em;
@@ -55,6 +56,15 @@
   padding: 0.1em 1em;
   font-weight: 600;
   font-size: 1em;
+  cursor: pointer;
+  &:hover {
+    width: auto;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    border: 2px solid green;
+    background-color: rgb(51, 109, 65);
+    transition: all .5s ease-in-out;
+  }
 }
 
 @media (min-width: 1281px) {

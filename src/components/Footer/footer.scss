@@ -10,6 +10,15 @@
 .owner {
   color: rgb(202, 187, 125);
   font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    width: auto;
+    padding: 0.3em 0.5em;
+    border-radius: 15px;
+    border: 2px solid green;
+    background-color: rgb(74, 74, 75);
+    transition: all .5s ease-in-out;
+  }
 }
 
 .sub-owner {
