@@ -1,7 +1,7 @@
 {
   "main.css": "/fashion-today/static/css/main.81f23499.chunk.css",
-  "main.js": "/fashion-today/static/js/main.bd39ffaf.chunk.js",
-  "main.js.map": "/fashion-today/static/js/main.bd39ffaf.chunk.js.map",
+  "main.js": "/fashion-today/static/js/main.458a85bd.chunk.js",
+  "main.js.map": "/fashion-today/static/js/main.458a85bd.chunk.js.map",
   "static/js/1.eedc0121.chunk.js": "/fashion-today/static/js/1.eedc0121.chunk.js",
   "static/js/1.eedc0121.chunk.js.map": "/fashion-today/static/js/1.eedc0121.chunk.js.map",
   "runtime~main.js": "/fashion-today/static/js/runtime~main.9b82c716.js",
@@ -11,6 +11,6 @@
   "static/media/header.scss": "/fashion-today/static/media/landing2.8a8af4ce.jpg",
   "static/media/brands.scss": "/fashion-today/static/media/css_sprites_brands.15aa9e5b.jpg",
   "index.html": "/fashion-today/index.html",
-  "precache-manifest.7cb3b937bb3e96ae6417e11a2e00f140.js": "/fashion-today/precache-manifest.7cb3b937bb3e96ae6417e11a2e00f140.js",
+  "precache-manifest.a1818793d2d392bbc2d1b987b3ef9eee.js": "/fashion-today/precache-manifest.a1818793d2d392bbc2d1b987b3ef9eee.js",
   "service-worker.js": "/fashion-today/service-worker.js"
 }
