@@ -10,8 +10,6 @@ import Faq from './pages/Faq'
 import Menu from '../src/components/Menu/Menu'
 import Header from '../src/components/Header/Header'
 import Footer from '../src/components/Footer/Footer'
-// import createHashHistory from 'history/createHashHistory'
-// const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL })
 
 class App extends Component {
 

@@ -36,7 +36,7 @@
 }
 
 .item-image {
-  height: 16.4em;
+  height: 16.1em;
   background-size: cover;
   background-image: url('../../data/img/dataItems/products/image-sprite.jpg');
 }
@@ -44,7 +44,7 @@
 
 @for $y from 1 through 8 {
   .item:nth-child(#{$y}) .item-image {
-    background-position-y: -1 * ($y - 1) * 16.6em;
+    background-position-y: -1 * ($y - 1) * 16.7em;
   }
 }
 

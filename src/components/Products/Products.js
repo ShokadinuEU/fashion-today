@@ -15,7 +15,7 @@ class Products extends Component {
 
   componentDidMount(){
     this.setState({ isLoading: true });
-    axios.get('./mendata.json')
+    axios.get('./hotItems.json')
       .then(result => this.setState({
         data: result.data,
         isLoading: false 
