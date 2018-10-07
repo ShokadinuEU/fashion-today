@@ -5,6 +5,7 @@
   justify-content: space-between;
   font-size: 1.1em;
   padding: 0 0.7em;
+  bottom: 0;
 }
 
 .owner {
@@ -167,7 +168,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 280px) and (max-width: 480px) {
   .main-footer {
     display: inline-flex;
     font-size: 1em;

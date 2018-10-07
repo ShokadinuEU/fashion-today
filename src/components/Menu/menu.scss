@@ -27,8 +27,15 @@
   width: 90%;
 }
 
+.link-home{
+  color: rgb(50, 61, 61);
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .menu-link {
   padding: 1em 2em;
+  margin: 0 0.1em;
   transition: all 1s ease-in-out;
 
   &:hover {
@@ -213,7 +220,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 280px) and (max-width: 480px) {
   .menu-main {
     width: 100%;
   }
