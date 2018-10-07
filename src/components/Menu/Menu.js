@@ -6,7 +6,7 @@ class Menu extends Component {
     return (
       // top menu section
       <div className="main-menu">
-        <div className="brand"><a href="/home"className="link-home"> | Fashion Today | </a></div>
+        <div className="brand"><a href="/"className="link-home"> | Fashion Today | </a></div>
         <div className="shop-cart"><i className="fas fa-cart-arrow-down fa-2x"></i></div>
         <div className="menu">
           <ul>
