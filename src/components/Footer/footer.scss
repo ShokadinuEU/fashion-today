@@ -1,11 +1,11 @@
-.main-footer {
+.footer-main {
   display: block;
-  margin-top: 3em;
   background-color: rgb(101, 110, 103);
   justify-content: space-between;
   font-size: 1.1em;
   padding: 0 0.7em;
-  bottom: 0;
+  // margin-top: auto;
+  margin: 0 auto;
 }
 
 .owner {
@@ -29,7 +29,8 @@
 }
 
 @media (min-width: 1281px) {
-  .main-footer {
+  .footer-main {
+    height: auto;
     display: flex;
     font-size: 1em;
     justify-content: space-around;
@@ -64,7 +65,8 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .main-footer {
+  .footer-main {
+    height: auto;
     display: flex;
     font-size: 1em;
     justify-content: space-around;
@@ -99,7 +101,8 @@
 }
 
 @media (min-width: 801px) and (max-width: 1024px) {
-  .main-footer {
+  .footer-main {
+    height: auto;
     display: flex;
     font-size: 1em;
     justify-content: space-around;
@@ -134,7 +137,8 @@
 }
 
 @media (min-width: 481px) and (max-width: 800px) {
-  .main-footer {
+  .footer-main {
+    height: auto;
     display: inline-flex;
     font-size: 1em;
     justify-content: space-between;
@@ -169,7 +173,8 @@
 }
 
 @media (min-width: 280px) and (max-width: 480px) {
-  .main-footer {
+  .footer-main {
+    height: auto;
     display: inline-flex;
     font-size: 1em;
     justify-content: space-between;

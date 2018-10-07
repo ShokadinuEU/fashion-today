@@ -9,7 +9,6 @@ class Brands extends Component {
         <hr className="style-one"/>
         <h1 className="brands-header">-----Brands We Represent-----</h1>
         <div className="brands-image"></div>
-        <hr className="style-eight"/>
       </div>
     )
   }

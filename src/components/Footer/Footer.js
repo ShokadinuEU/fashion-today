@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       // footer with link to github creator profile
-      <div className="main-footer">
+      <div className="footer-main">
         <div className="our-store">
           <h4>Our Store</h4>
           <span className="address">141 South Grand Avenue</span>
