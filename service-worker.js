@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/fashion-today/precache-manifest.ba6a662fad1f1a4342f1d5225beb0c49.js"
+  "/fashion-today/precache-manifest.41ddff8b6c716273a9904e34d50e668a.js"
 );
 
 workbox.clientsClaim();
