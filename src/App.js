@@ -1,32 +1,48 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Home from './pages/Home';
-import Women from './pages/Women';
-import Men from './pages/Men';
-import About from './pages/About';
-import Support from './pages/Support';
-import Faq from './pages/Faq';
+import React, { Component } from 'react'
+import { HashRouter, Route, Switch } from 'react-router-dom'
+import Home from './pages/Home'
+import Women from './pages/Women'
+import Men from './pages/Men'
+import About from './pages/About'
+import Support from './pages/Support'
+import Faq from './pages/Faq'
 
+import Menu from '../src/components/Menu/Menu'
+import Header from '../src/components/Header/Header'
+import Footer from '../src/components/Footer/Footer'
+// import createHashHistory from 'history/createHashHistory'
+// const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL })
 
 class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <div className="main-content">
-          <Switch className="content-inside">
-            <Route path="/" component={Home} exact />
-            <Route path="/women" component={Women} />
-            <Route path="/men" component={Men} />
-            <Route path="/about" component={About} />
-            <Route path="/support" component={Support} />
-            <Route path="/faq" component={Faq} />
-            <Route component={Home} />
-          </Switch>
+      <HashRouter>
+        <div>
+          <div>
+            <div className="main-content">
+            <div className="content">
+              <Menu />
+              <Header />
+            </div>
+            </div>
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/women' component={Women} />
+              <Route exact path='/men' component={Men} />
+              <Route exact path='/about' component={About} />
+              <Route exact path='/support' component={Support} />
+              <Route exact path='/faq' component={Faq} />
+              <Route exact component={Home} />
+            </Switch>
+            <div className="main-footer">
+              <Footer />
+            </div>
+          </div>
         </div>
-      </BrowserRouter>
-    );
+      </HashRouter>
+    )
   }
 }
 
-export default App;
+export default App
