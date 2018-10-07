@@ -1,0 +1,218 @@
+[
+  {
+    "id": 0,
+    "brand": "Neil Barrett Kids",
+    "name": "lightning bolt sweatshirt",
+    "price": "£83"
+  },
+  {
+    "id": 1,
+    "brand": "Dolce & Gabbana Kids",
+    "name": "kilt hoodie dress",
+    "price": "£295"
+  },
+  {
+    "id": 2,
+    "brand": "Miss Blumarine",
+    "name": "rose appliqué sweater",
+    "price": "£95"
+  },
+  {
+    "id": 3,
+    "brand": "Woolrich Kids",
+    "name": "racoon fur parka",
+    "price": "£728"
+  },
+  {
+    "id": 4,
+    "brand": "Moschino Kids",
+    "name": "TEEN Teddy print long sleeve T-shirt",
+    "price": "£90"
+  },
+  {
+    "id": 5,
+    "brand": "Dsquared2 Kids",
+    "name": "TEEN jacquard zip front blouse",
+    "price": "£315"
+  },
+  {
+    "id": 6,
+    "brand": "Little Marc Jacobs",
+    "name": "TEEN patched dress",
+    "price": "£173"
+  },
+  {
+    "id": 7,
+    "brand": "Moncler Kids",
+    "name": "padded coat",
+    "price": "£670"
+  },
+  {
+    "id": 8,
+    "brand": "Diadora Junior",
+    "name": "printed logo T-shirt",
+    "price": "£42"
+  },
+  {
+    "id": 9,
+    "brand": "Familiar",
+    "name": "peter pan collar top",
+    "price": "£91"
+  },
+  {
+    "id": 10,
+    "brand": "Charabia",
+    "name": "sleeveless leopard print dress",
+    "price": "£230"
+  },
+  {
+    "id": 11,
+    "brand": "Charabia",
+    "name": "glittered polka dot dress",
+    "price": "£297"
+  },
+  {
+    "id": 12,
+    "brand": "Kenzo Kids",
+    "name": "logo sweatshirt ",
+    "price": "£137"
+  },
+  {
+    "id": 13,
+    "brand": "Bonpoint",
+    "name": "Juna blouse ",
+    "price": "£95"
+  },
+  {
+    "id": 14,
+    "brand": "Velveteen",
+    "name": "Lana top",
+    "price": "£60"
+  },
+  {
+    "id": 15,
+    "brand": "Velveteen",
+    "name": "Willow dress",
+    "price": "£125"
+  },
+  {
+    "id": 16,
+    "brand": "Velveteen",
+    "name": "Kate dress",
+    "price": "£98"
+  },
+  {
+    "id": 17,
+    "brand": "Velveteen",
+    "name": "Immi dress",
+    "price": "£113"
+  },
+  {
+    "id": 18,
+    "brand": "Velveteen",
+    "name": "Hillary mesh top",
+    "price": "£71"
+  },
+  {
+    "id": 19,
+    "brand": "Velveteen",
+    "name": "Natalie top",
+    "price": "£68"
+  },
+  {
+    "id": 20,
+    "brand": "Bobo Choses",
+    "name": "The Happy Sads overall",
+    "price": "£79"
+  },
+  {
+    "id": 21,
+    "brand": "Moschino Kids",
+    "name": "Teddy Toy embroidered sweatshirt",
+    "price": "£109"
+  },
+  {
+    "id": 22,
+    "brand": "Emporio Armani Kids",
+    "name": "v-neck cardgan",
+    "price": "£242"
+  },
+  {
+    "id": 23,
+    "brand": "Il Gufo",
+    "name": "loose fitted sweater ",
+    "price": "£84"
+  },
+  {
+    "id": 24,
+    "brand": "Marni Kids",
+    "name": "floral embroidered sweatshirt dress",
+    "price": "£198"
+  },
+  {
+    "id": 25,
+    "brand": "Dsquared2 Kids",
+    "name": "TEEN slim fit T-shirt",
+    "price": "£40"
+  },
+  {
+    "id": 26,
+    "brand": "Moschino Kids",
+    "name": "Teddy logo leggings",
+    "price": "£45"
+  },
+  {
+    "id": 27,
+    "brand": "Msgm Kids",
+    "name": "logo T-shirt",
+    "price": "£40"
+  },
+  {
+    "id": 28,
+    "brand": "Il Gufo",
+    "name": "straight-leg trousers",
+    "price": "£100"
+  },
+  {
+    "id": 29,
+    "brand": "Monnalisa",
+    "name": "floral embroidered cardigan",
+    "price": "£117"
+  },
+  {
+    "id": 30,
+    "brand": "Monnalisa",
+    "name": "knitted single-button cardigan",
+    "price": "£80"
+  },
+  {
+    "id": 31,
+    "brand": "Ralph Lauren Kids",
+    "name": "logo polo shirt ",
+    "price": "£86"
+  },
+  {
+    "id": 32,
+    "brand": "Emilio Pucci Junior",
+    "name": "printed T-shirt dress",
+    "price": "£280"
+  },
+  {
+    "id": 33,
+    "brand": "Emilio Pucci Junior",
+    "name": "printed shirt dress",
+    "price": "£460"
+  },
+  {
+    "id": 34,
+    "brand": "Fendi Kids",
+    "name": "printed top",
+    "price": "£330"
+  },
+  {
+    "id": 35,
+    "brand": "Fendi Kids",
+    "name": "Monster Robot T-shirt",
+    "price": "£179"
+  }
+]
