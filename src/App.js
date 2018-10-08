@@ -3,7 +3,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Women from './pages/women/Women'
 import Men from './pages/men/Men'
-import About from './pages/about/About'
+import Kids from './pages/kids/Kids'
 import Support from './pages/support/Support'
 import Faq from './pages/faq/Faq'
 
@@ -28,7 +28,7 @@ class App extends Component {
               <Route exact path='/' component={Home} />
               <Route exact path='/women' component={Women} />
               <Route exact path='/men' component={Men} />
-              <Route exact path='/about' component={About} />
+              <Route exact path='/kids' component={Kids} />
               <Route exact path='/support' component={Support} />
               <Route exact path='/faq' component={Faq} />
               <Route exact component={Home} />

@@ -14,8 +14,8 @@
   max-width: 1100px;
   margin: 0 auto;
 }
-// each individual women item
-.women {
+// each individual kids item
+.kids {
   width: 200px;
   padding: 0.5em 0.4em;
   margin: 0.7em 0.35em;
@@ -24,27 +24,27 @@
   &:hover {
     border-radius: 15px;
     border: 2px solid green;
-    background-color: rgb(209, 208, 124);
+    background-color: rgb(209, 208, 124); 
     transition: all .5s ease-in-out;
   }
   
 }
 
-.women-detail {
+.kids-detail {
   margin: 0.1em 0.4em;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.1em;
 }
 
-.women-image {
+.kids-image {
   height: 16.2em;
-  background-image: url('../../data/img/dataItems/women/women.jpg');
+  background-image: url('../../data/img/dataItems/kids/kids.jpg');
 }
 // loop through sprite image
-@for $y from 0 through 11 {
-  @for $x from 1 through 16 {
-    .women:nth-child(#{$x + $y * 16}) .women-image {
+@for $y from 0 through 4 {
+  @for $x from 1 through 7 {
+    .kids:nth-child(#{$x + $y * 7}) .kids-image {
       background-position-x: -1 * ($x - 1) * 200px;
       background-position-y: -1 + $y * 266px;
     }
@@ -83,7 +83,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .kids {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -94,7 +94,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .women-detail {
+  .kids-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -116,7 +116,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .kids {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -127,7 +127,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .women-detail {
+  .kids-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -149,7 +149,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .kids {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -160,7 +160,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .women-detail {
+  .kids-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -182,7 +182,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .kids {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -193,7 +193,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .women-detail {
+  .kids-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -211,7 +211,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .kids {
     display: block;
     margin: 0.4em auto;
     text-align: center;

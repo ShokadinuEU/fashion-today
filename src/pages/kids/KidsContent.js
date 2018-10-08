@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import './products.scss'
+import './kids_content.scss'
 import axios from 'axios';
 
 
-class Products extends Component {
+class MenContent extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -15,7 +15,7 @@ class Products extends Component {
 
   componentDidMount(){
     this.setState({ isLoading: true });
-    axios.get('./hotItems.json')
+    axios.get('./kids.json')
       .then(result => this.setState({
         data: result.data,
         isLoading: false 
@@ -39,14 +39,14 @@ class Products extends Component {
 
     return (
       <div className="products-main">
-        <h1 className="products-header">-----Latest Products-----</h1>
+        <h1 className="products-header" id="hot-items">-----Latest Products-----</h1>
         <hr className="style-eight"/>
-        <div className="products-wrapper" id="hot-items">
+        <div className="products-wrapper">
           {data.map(item =>
-            <div key={item.id} className="item">
-              <div className="item-image"></div>
-              <span className="item-detail">{item.name}</span>
-              <span className="item-detail">{item.price}</span>
+            <div key={item.id} className="kids">
+              <div className="kids-image"></div>
+              <span className="kids-detail">{item.name}</span>
+              <span className="kids-detail">{item.price}</span>
               <button className="buy-it">Buy It</button>
             </div>
           )}
@@ -55,4 +55,4 @@ class Products extends Component {
     );
   }
 }
-export default Products;
+export default MenContent;
