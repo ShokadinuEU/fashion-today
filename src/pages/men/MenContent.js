@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import './women_content.scss'
+import './men_content.scss'
 import axios from 'axios';
 
 
-class WomenContent extends Component {
+class MenContent extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -15,7 +15,7 @@ class WomenContent extends Component {
 
   componentDidMount(){
     this.setState({ isLoading: true });
-    axios.get('./women.json')
+    axios.get('./men.json')
       .then(result => this.setState({
         data: result.data,
         isLoading: false 
@@ -43,10 +43,10 @@ class WomenContent extends Component {
         <hr className="style-eight"/>
         <div className="products-wrapper">
           {data.map(item =>
-            <div key={item.id} className="women">
-              <div className="women-image"></div>
-              <span className="women-detail">{item.name}</span>
-              <span className="women-detail">{item.price}</span>
+            <div key={item.id} className="men">
+              <div className="men-image"></div>
+              <span className="men-detail">{item.name}</span>
+              <span className="men-detail">{item.price}</span>
               <button className="buy-it">Buy It</button>
             </div>
           )}
@@ -55,4 +55,4 @@ class WomenContent extends Component {
     );
   }
 }
-export default WomenContent;
+export default MenContent;

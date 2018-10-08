@@ -14,8 +14,8 @@
   max-width: 870px;
   margin: 0 auto;
 }
-// each individual women item
-.women {
+// each individual men item
+.men {
   width: 200px;
   padding: 0.5em 0.4em;
   margin: 0.7em 0.35em;
@@ -30,20 +30,20 @@
   
 }
 
-.women-detail {
+.men-detail {
   margin: 0.1em 0.4em;
   text-align: center;
   text-transform: capitalize;
 }
 
-.women-image {
+.men-image {
   height: 16.2em;
-  background-image: url('../../data/img/dataItems/women/women.jpg');
+  background-image: url('../../data/img/dataItems/men/men.jpg');
 }
 // loop through sprite image
 @for $y from 0 through 11 {
   @for $x from 1 through 16 {
-    .women:nth-child(#{$x + $y * 16}) .women-image {
+    .men:nth-child(#{$x + $y * 16}) .men-image {
       background-position-x: -1 * ($x - 1) * 200px;
       background-position-y: -1 + $y * 266px;
     }
@@ -82,7 +82,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .men {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -93,7 +93,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .women-detail {
+  .men-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -115,7 +115,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .men {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -126,7 +126,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .women-detail {
+  .men-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -148,7 +148,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .men {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -159,7 +159,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .women-detail {
+  .men-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -181,7 +181,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .men {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -192,7 +192,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .women-detail {
+  .men-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -210,7 +210,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .women {
+  .men {
     display: block;
     margin: 0.4em auto;
     text-align: center;
