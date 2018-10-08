@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/fashion-today/static/media/women.4c31548f.jpg"
   },
   {
+    "revision": "72b32e24efa53f33cd7866acb5c09a56",
+    "url": "/fashion-today/static/media/men.72b32e24.jpg"
+  },
+  {
     "revision": "8a8af4ced78c561a03c6ccce749df550",
     "url": "/fashion-today/static/media/landing2.8a8af4ce.jpg"
   },
@@ -20,19 +24,19 @@ self.__precacheManifest = [
     "url": "/fashion-today/static/js/runtime~main.9b82c716.js"
   },
   {
-    "revision": "d7293b1d7ee1cd33e24e",
-    "url": "/fashion-today/static/js/main.d7293b1d.chunk.js"
+    "revision": "cc46c140d2c8fe17c20e",
+    "url": "/fashion-today/static/js/main.cc46c140.chunk.js"
   },
   {
-    "revision": "1439428157c1c40e718b",
-    "url": "/fashion-today/static/js/1.14394281.chunk.js"
+    "revision": "9b1b54e80ee4200a7f5e",
+    "url": "/fashion-today/static/js/1.9b1b54e8.chunk.js"
   },
   {
-    "revision": "d7293b1d7ee1cd33e24e",
-    "url": "/fashion-today/static/css/main.f37b116b.chunk.css"
+    "revision": "cc46c140d2c8fe17c20e",
+    "url": "/fashion-today/static/css/main.0dd110c1.chunk.css"
   },
   {
-    "revision": "279403461b8cfb88e5af203a6a083407",
+    "revision": "f89dcc4eaa9695f4589fa2ce900c6a4f",
     "url": "/fashion-today/index.html"
   }
 ];
