@@ -14,8 +14,8 @@
   max-width: 870px;
   margin: 0 auto;
 }
-// each individual item
-.item {
+// each individual women
+.women {
   width: 200px;
   padding: 0.5em 0.4em;
   margin: 0.7em 0.35em;
@@ -30,20 +30,23 @@
   
 }
 
-.item-detail {
+.women-detail {
   margin: 0.1em 0.4em;
   text-align: center;
 }
 
-.item-image {
-  height: 16.1em;
-  background-size: cover;
-  background-image: url('../../data/img/dataItems/products/image-sprite.jpg');
+.women-image {
+  height: 16.2em;
+  background-image: url('../../data/img/dataItems/women/women.jpg');
 }
 // loop through sprite image
-@for $i from 1 through 8 {
-  .item:nth-child(#{$i}) .item-image {
-    background-position-y: -1 * ($i - 1) * 16.7em;
+
+@for $y from 0 through 11 {
+  @for $x from 1 through 16 {
+    .women:nth-child(#{$x + $y * 16}) .women-image {
+      background-position-x: -1 * ($x - 1) * 200px;
+      background-position-y: -1 + $y * 266px;
+    }
   }
 }
 
@@ -79,7 +82,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .women {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -90,7 +93,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .item-detail {
+  .women-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -112,7 +115,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .women {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -123,7 +126,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .item-detail {
+  .women-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -145,7 +148,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .women {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -156,7 +159,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .item-detail {
+  .women-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -178,7 +181,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .women {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -189,7 +192,7 @@
     display: block;
     padding: 0.5em 1em;
   }
-  .item-detail {
+  .women-detail {
     display: block;
     margin: 0.2em 0.2em;
     text-align: center;
@@ -207,7 +210,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .women {
     display: block;
     margin: 0.4em auto;
     text-align: center;
