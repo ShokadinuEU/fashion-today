@@ -7,7 +7,7 @@ class Brands extends Component {
       // section underneath item list with various brands
       <div className="brands-main">
         <hr className="style-one"/>
-        <h1 className="brands-header" id="hot-items">-----Brands We Represent-----</h1>
+        <h1 className="brands-header">-----Brands We Represent-----</h1>
         <div className="brands-image"></div>
       </div>
     )

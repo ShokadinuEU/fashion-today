@@ -39,15 +39,15 @@ class Products extends Component {
 
     return (
       <div className="products-main">
-        <h1 className="products-header">-----Latest Products-----</h1>
+        <h1 className="products-header" id="hot-items">-----Latest Products-----</h1>
         <hr className="style-eight"/>
-        <div className="products-wrapper" id="hot-items">
+        <div className="products-wrapper">
           {data.map(item =>
             <div key={item.id} className="item">
               <div className="item-image"></div>
               <span className="item-detail">{item.name}</span>
               <span className="item-detail">{item.price}</span>
-              <button key={item.id} className="buy-it">Buy It</button>
+              <button className="buy-it">Buy It</button>
             </div>
           )}
         </div>
