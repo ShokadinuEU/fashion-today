@@ -51,6 +51,7 @@ class Products extends Component {
             </div>
           )}
         </div>
+          <div className="home-main"><i class="fas fa-home fa-2x home-button"></i></div>
       </div>
     );
   }

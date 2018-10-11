@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './women_content.scss'
 import axios from 'axios';
 
@@ -51,6 +52,7 @@ class WomenContent extends Component {
             </div>
           )}
         </div>
+        <div className="home-main"><Link to='/home'><i class="fas fa-home fa-2x home-button"></i></Link></div>
       </div>
     );
   }

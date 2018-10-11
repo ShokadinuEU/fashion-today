@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './men_content.scss'
 import axios from 'axios';
 
@@ -41,7 +42,7 @@ class MenContent extends Component {
       <div className="products-main">
         <h1 className="products-header" id="hot-items">-----Latest Products-----</h1>
         <hr className="style-eight"/>
-        <div className="products-wrapper">
+        <div className="products-wrapper" id="go-to-men">
           {data.map(item =>
             <div key={item.id} className="men">
               <div className="men-image"></div>
@@ -51,6 +52,7 @@ class MenContent extends Component {
             </div>
           )}
         </div>
+        <div className="home-main"><Link to='/home'><i class="fas fa-home fa-2x home-button"></i></Link></div>
       </div>
     );
   }
