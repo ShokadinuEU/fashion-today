@@ -10,6 +10,7 @@ import Faq from './pages/faq/Faq'
 import Menu from '../src/components/Menu/Menu'
 import Header from '../src/components/Header/Header'
 import Footer from '../src/components/Footer/Footer'
+import HomeButton from './components/Home/HomeButton'
 
 class App extends Component {
 
@@ -33,6 +34,7 @@ class App extends Component {
               <Route exact path='/faq' component={Faq} />
               <Route exact component={Home} />
             </Switch>
+            <HomeButton />
             <div className="main-footer">
               <Footer />
             </div>

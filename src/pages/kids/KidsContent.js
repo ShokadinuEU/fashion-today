@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import './kids_content.scss'
 import axios from 'axios';
 
@@ -52,7 +51,6 @@ class MenContent extends Component {
             </div>
           )}
         </div>
-        <div className="home-main"><Link to='/'><i class="fas fa-home fa-2x home-button"></i></Link></div>
       </div>
     );
   }
