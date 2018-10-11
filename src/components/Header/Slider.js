@@ -1,3 +1,6 @@
+
+// Plans for future to make the header to be a slading image.
+
 // import React, { Component } from 'react'
 
 // var e = 0; // Starting point

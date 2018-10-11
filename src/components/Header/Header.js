@@ -11,11 +11,10 @@ class Header extends Component {
         <div className="header">
           <div className="header-text">
             <h1>New Season Arrivals</h1>
-            <h4>Check out the new treds</h4>
+            <h4>Check out the new trends</h4>
             <button className="header-button"><a href="#go-to" className="hot-items">Shop Now</a></button>
           </div>
         </div>
-        {/* <ChangeImg /> */}
       </div>
     )
   }

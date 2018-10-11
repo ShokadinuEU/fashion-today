@@ -12,9 +12,11 @@ class HomeButton extends React.Component {
   }
 
   render () {
-    return <div className="long">
-              <ScrollButton scrollStepInPx="500" delayInMs="16.66"/>
-           </div>
+    return(
+    <div className="long">
+      <ScrollButton scrollStepInPx="500" delayInMs="16.66"/>
+    </div>
+    )
   }
 }
 
