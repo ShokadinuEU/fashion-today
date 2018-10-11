@@ -42,7 +42,7 @@ class MenContent extends Component {
       <div className="products-main">
         <h1 className="products-header" id="hot-items">-----Latest Products-----</h1>
         <hr className="style-eight"/>
-        <div className="products-wrapper" id="go-to-kids">
+        <div className="products-wrapper">
           {data.map(item =>
             <div key={item.id} className="kids">
               <div className="kids-image"></div>
@@ -52,7 +52,7 @@ class MenContent extends Component {
             </div>
           )}
         </div>
-        <div className="home-main"><Link to='/home'><i class="fas fa-home fa-2x home-button"></i></Link></div>
+        <div className="home-main"><Link to='/'><i class="fas fa-home fa-2x home-button"></i></Link></div>
       </div>
     );
   }

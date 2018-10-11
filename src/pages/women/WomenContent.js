@@ -52,7 +52,7 @@ class WomenContent extends Component {
             </div>
           )}
         </div>
-        <div className="home-main"><Link to='/home'><i class="fas fa-home fa-2x home-button"></i></Link></div>
+        <div className="home-main"><Link to='/'><i class="fas fa-home fa-2x home-button"></i></Link></div>
       </div>
     );
   }
