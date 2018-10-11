@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/fashion-today/static/media/css_sprites_brands.15aa9e5b.jpg"
   },
   {
-    "revision": "b63821dfda74ac4abb08",
-    "url": "/fashion-today/static/css/main.86f2f8c1.chunk.css"
+    "revision": "9d850dd91cd5fc4cc67b",
+    "url": "/fashion-today/static/css/main.e49295bf.chunk.css"
   },
   {
-    "revision": "714a4116eef31d7afcd7",
-    "url": "/fashion-today/static/js/1.714a4116.chunk.js"
+    "revision": "84173f53693a5abb1ccc",
+    "url": "/fashion-today/static/js/1.84173f53.chunk.js"
   },
   {
     "revision": "9b82c716a84aac512605",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/fashion-today/static/media/image-sprite.778eab13.jpg"
   },
   {
-    "revision": "b63821dfda74ac4abb08",
-    "url": "/fashion-today/static/js/main.b63821df.chunk.js"
+    "revision": "9d850dd91cd5fc4cc67b",
+    "url": "/fashion-today/static/js/main.9d850dd9.chunk.js"
   },
   {
     "revision": "4c31548f25d8363e81b19f2ccf919ae1",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/fashion-today/static/media/landing2.8a8af4ce.jpg"
   },
   {
-    "revision": "d08943891f3fa00674d8b052b592cf5f",
+    "revision": "d47d2c08d87e4120c41fb84590d63cdd",
     "url": "/fashion-today/index.html"
   }
 ];
