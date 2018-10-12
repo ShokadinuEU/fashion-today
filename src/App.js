@@ -19,7 +19,7 @@ class App extends Component {
       <HashRouter>
         <div>
           <div>
-            <div className="main-content">
+            <div className="main-content content">
             <div className="content">
               <Menu />
               <Header />

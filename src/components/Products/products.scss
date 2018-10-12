@@ -15,8 +15,8 @@
   margin: 0 auto;
 }
 // each individual item
-.item {
-  width: 200px;
+.item-unit {
+  width: 210px;
   padding: 0.5em 0.4em;
   margin: 0.7em 0.35em;
   transition: all 1s ease-in-out;
@@ -27,7 +27,6 @@
     background-color: rgb(209, 208, 124);
     transition: all .5s ease-in-out;
   }
-  
 }
 
 .item-detail {
@@ -36,14 +35,13 @@
 }
 
 .item-image {
-  height: 16.1em;
-  background-size: cover;
+  height: 16.2em;
   background-image: url('../../data/img/dataItems/products/image-sprite.jpg');
 }
 // loop through sprite image
 @for $i from 1 through 8 {
-  .item:nth-child(#{$i}) .item-image {
-    background-position-y: -1 * ($i - 1) * 16.7em;
+  .item-unit:nth-child(#{$i}) .item-image {
+    background-position-y: 1 + -$i * 266px;
   }
 }
 
@@ -58,7 +56,7 @@
   cursor: pointer;
   &:hover {
     width: auto;
-    padding: 0.5em 1em;
+    padding: 0.9em 1.2em;
     border-radius: 15px;
     border: 2px solid green;
     background-color: rgb(51, 109, 65);
@@ -66,6 +64,17 @@
   }
 }
 
+.carousel-inner {
+  height: 40vh;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.carousel-control {
+  border-radius: 15px;
+}
 @media (min-width: 1281px) {
   .products-main {
     width: 90%;
@@ -79,7 +88,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .item-unit{
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -112,7 +121,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .item-unit {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -145,7 +154,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .item-unit {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -178,7 +187,7 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .item-unit {
     display: inline-grid;
     height: 25em;
     text-align: center;
@@ -207,12 +216,13 @@
     width: 100%;
     margin: 0 auto;
   }
-  .item {
+  .item-unit {
     display: block;
     margin: 0.4em auto;
     text-align: center;
     height: 21em;
   }
+
   .buy-it {
     justify-content: center;
     text-align: center;
@@ -225,7 +235,4 @@
   left: 92vw;
   overflow: hidden;
   cursor: pointer;
-}
-
-.home-button {
 }

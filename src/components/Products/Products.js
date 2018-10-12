@@ -43,7 +43,7 @@ class Products extends Component {
         <hr className="style-eight"/>
         <div className="products-wrapper" id="go-to">
           {data.map(item =>
-            <div key={item.id} className="item">
+            <div key={item.id} className="item-unit">
               <div className="item-image"></div>
               <span className="item-detail">{item.name}</span>
               <span className="item-detail">{item.price}</span>

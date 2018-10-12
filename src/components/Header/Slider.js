@@ -1,38 +1,55 @@
+import React, { Component } from 'react'
+import {Carousel} from 'react-bootstrap'
 
-// Plans for future to make the header to be a slading image.
 
-// import React, { Component } from 'react'
+class Slider extends Component {
 
-// var e = 0; // Starting point
-// var images = [];
-// var time = 3500; //  each time image changes
-// var i = 0;
+        // ==========Contol Carousel=========
+  // constructor(props, context) {
+  //   super(props, context);
 
-// class Slider extends Component {
+  //   this.handleSelect = this.handleSelect.bind(this);
 
-//   images[i] = './images/' + i + '.jpg';
+  //   this.state = {
+  //     index: 0,
+  //     direction: null
+  //   };
+  // }
 
-//   ChangeImg() {
-//   document.getElementsByTagId("H1")[0].setAttribute("class", "democlass"); = images[e];
+  // handleSelect(selectedIndex, e) {
+  //   alert(`selected=${selectedIndex}, direction=${e.direction}`);
+  //   this.setState({
+  //     index: selectedIndex,
+  //     direction: e.direction
+  //   });
+  // }
 
-//   if(e < images.length -1){
-//     e++;
-//   } else {
-//     e = 0;
-//   }
+  // render() {
+  //   const { index, direction } = this.state;
+        // ==========Contol Carousel=========
 
-//   setTimeout(ChangeImg(), time);
-// }
+    
+  render() {
+    return (
+      <Carousel>
+        <Carousel.Item>
+          <img width={"auto"} height={"35vh"} alt="900x500" src="./slideImg/img1.jpeg" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width={"auto"} height={"35vh"} alt="900x500" src="./slideImg/img2.jpeg" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width={"auto"} height={"35vh"} alt="900x500" src="./slideImg/img3.jpeg" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width={"auto"} height={"35vh"} alt="900x500" src="./slideImg/img4.jpeg" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width={"auto"} height={"35vh"} alt="900x500" src="./slideImg/img5.jpeg" />
+        </Carousel.Item>
+      </Carousel>
+    );
+  }
+}
 
-//   window.onload = ChangeImg;
-
-//   render() {
-//     return (
-//       <div>
-        
-//       </div>
-//     )
-//   }
-// }
-
-// export default Slider;
+export default Slider;

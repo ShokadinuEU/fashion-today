@@ -1,10 +1,10 @@
 .header {
   z-index: -1;
   margin: 0 auto;
-  height: 35vh;
+  height: auto;
   width: 90%;
   max-width: 1280px;
-  background-image: url("../../data/img/landing2.jpg");
+  background-color: #ccc;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -12,9 +12,10 @@
 }
 
 .header-text {
+  position: absolute;
   display: inline-block;
   width: auto;
-  top: 7em;
+  top: 22em;
   margin: 7em 0 0 2.5em;
   padding: 0.1em 0.6em;
   background-color: rgba(185, 182, 182, 0.2);
@@ -24,16 +25,18 @@
 .header-text button {
   border-radius: 38%;
   background-color: #ccc;
-  padding: 0.3em 0.6em;
+  padding: 0.6em 0.7em;
   margin: 0 0 1em 3em;
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
+  text-decoration: none;
   &:hover {
     width: auto;
-    padding: 0.3em 0.5em;
+    padding: 0.6em 0.7em;
     border-radius: 15px;
     border: 2px solid green;
+    text-decoration: none;
     background-color: rgb(209, 208, 124);
     transition: all .5s ease-in-out;
   }
@@ -41,6 +44,8 @@
 .hot-items {
   text-decoration: none;
   color: black;
+  font-size: large;
+  text-decoration: none;
 }
 
 @media (min-width: 1281px) {
@@ -62,7 +67,7 @@
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .header-text {
-    margin: 10em 0 0 1.5em;
+    margin: 7em 0 0 2.5em;
     font-size: 0.9em;
     line-height: 0.5em;
     background-color: rgba(185, 182, 182, 0.4);
@@ -108,10 +113,14 @@
 
 @media (min-width: 280px) and (max-width: 480px) {
   .header-text {
-    margin: 8em 1em;
-    line-height: 0.5em;
+    margin: 4em 6em;
+    line-height: 0.3em;
     font-size: 0.6em;
-    background-color: rgba(185, 182, 182, 0.5);
+    background-color: rgba(185, 182, 182, 0.5)
+    h2 {
+      font-size: 1.5em;
+      line-height: 0.5em;
+    }
     h4 {
       font-size: 1.5em;
       line-height: 0.5em;
