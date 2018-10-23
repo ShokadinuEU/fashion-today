@@ -1,10 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
+import './support.scss'
 
-export default class Support extends Component {
-  render() {
-    return (
-      <div className="main-content">
-      </div>
-    )
-  }
+function Support() {
+  return (
+    <div>
+      
+    </div>
+  )
 }
+
+export default Support
+
