@@ -9,9 +9,9 @@ body, html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.content {
+/* .content {
   min-height: calc(100vh - 21vh);
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

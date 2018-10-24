@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './men_content.scss'
+import Header from '../../components/Header/Header'
 import axios from 'axios';
 
 
@@ -39,6 +40,7 @@ class MenContent extends Component {
 
     return (
       <div className="products-main">
+        <Header />
         <h1 className="products-header">-----Latest Products-----</h1>
         <hr className="style-eight"/>
         <div className="products-wrapper">
