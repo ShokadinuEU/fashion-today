@@ -4,8 +4,46 @@
 }
 
 .form-wrapper {
+  font-size: 1.2em;
   width: 80%;
   max-width: 1280px;
   margin: 3em auto;
   padding: 2em 0;
+  font-family: 'Courier New', Courier, monospace
 }
+
+.label-name input {
+  width: 70%;
+  
+}
+
+.label-email input {
+  width: 70%;
+}
+
+.subject-form input {
+  width: 70%
+}
+
+.message-form textarea {
+  width: 70%
+}
+
+.submit-form-button {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.submit-form-button button {
+  width: 5em;
+  font-weight: 600;
+  border-radius: 10%;
+  &:hover {
+    background-color: rgb(41, 167, 47);
+    color: #ccc;
+    font-weight: 600;
+  }
+}
+
