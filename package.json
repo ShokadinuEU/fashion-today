@@ -7,6 +7,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "history": "^4.7.2",
+    "inline-critical": "^4.0.5",
     "lodash": "^4.17.11",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
