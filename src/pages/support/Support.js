@@ -95,6 +95,7 @@ class Support extends Component {
       this.setState({ 
         newUser: {
           name: '',
+          email: '',
           age: '',
           gender: '',
           skills: [],
@@ -113,7 +114,16 @@ class Support extends Component {
             value={this.state.newUser.name} 
             placeholder = {'Enter your name'}
             handleChange = {this.handleInput}
-          /> {/* Name of the user */}
+          /> {/* Name of the user Name */}
+          
+          <Input 
+            inputType={'email'}
+            title= {'Email'} 
+            name= {'email'}
+            value={this.state.newUser.email} 
+            placeholder = {'Enter your email'}
+            handleChange = {this.handleInput}
+          /> {/* Name of the user Email */}
 
           <Input 
             inputType={'number'} 
@@ -134,20 +144,20 @@ class Support extends Component {
           /> {/* Age Selection */}
 
           <CheckBox  
-            title={'Skills'}
-            name={'skills'}
+            title={'Select a issue section'}
+            name={'Select a issue section'}
             options={this.state.skillOptions}
             selectedOptions = { this.state.newUser.skills}
             handleChange={this.handleCheckBox}
           /> {/* Skill */}
           
           <TextArea
-            title={'About you.'}
-            rows={10}
+            title={'Tell us more about your issue'}
+            rows={5}
             value={this.state.newUser.about}
-            name={'currentPetInfo'}
+            name={'currentShopInfo'}
             handleChange={this.handleTextArea}
-            placeholder={'Describe your past experience and skills'}  />{/* About you */}
+            placeholder={'Describe your past experience related to your issue'}  />{/* About you */}
 
           <Button 
             action = {this.handleFormSubmit}
