@@ -19,25 +19,16 @@ class Support extends Component {
         gender: '',
         skills: [],
         about: ''
-
       },
 
       genderOptions: ['Male', 'Female', 'Others'],
-      skillOptions: ['Programming', 'Development', 'Design', 'Testing']
-
+      skillOptions: ['Shopping', 'Transaction', 'Return', 'Other']
     }
-    this.handleTextArea = this.handleTextArea.bind(this);
-    this.handleAge = this.handleAge.bind(this);
-    this.handleFullName = this.handleFullName.bind(this);
-    this.handleFormSubmit = this.handleFormSubmit.bind(this);
-    this.handleClearForm = this.handleClearForm.bind(this);
-    this.handleCheckBox = this.handleCheckBox.bind(this);
-    this.handleInput = this.handleInput.bind(this);
   }
 
   /* This lifecycle hook gets executed when the component mounts */
   
-  handleFullName(e) {
+  handleFullName = (e) => {
    let value = e.target.value;
    this.setState( prevState => ({ newUser : 
         {...prevState.newUser, name: value
@@ -45,7 +36,7 @@ class Support extends Component {
       }), () => console.log(this.state.newUser))
   }
 
-  handleAge(e) {
+  handleAge = (e) => {
        let value = e.target.value;
    this.setState( prevState => ({ newUser : 
         {...prevState.newUser, age: value
@@ -53,7 +44,7 @@ class Support extends Component {
       }), () => console.log(this.state.newUser))
   }
 
-  handleInput(e) {
+  handleInput = (e) => {
        let value = e.target.value;
        let name = e.target.name;
    this.setState( prevState => ({ newUser : 
@@ -62,7 +53,7 @@ class Support extends Component {
       }), () => console.log(this.state.newUser))
   }
 
-  handleTextArea(e) {
+  handleTextArea = (e) => {
     console.log("Inside handleTextArea");
     let value = e.target.value;
     this.setState(prevState => ({
@@ -73,7 +64,7 @@ class Support extends Component {
   }
 
 
-  handleCheckBox(e) {
+  handleCheckBox = (e) => {
 
     const newSelection = e.target.value;
     let newSelectionArray;
@@ -90,25 +81,15 @@ class Support extends Component {
       )
 }
 
-  handleFormSubmit(e) {
+  handleFormSubmit = (e) => {
     e.preventDefault();
     let userData = this.state.newUser;
+    this.setState(prevState => ({ newUser: userData
+    }))
+    console.log(userData)
+  }
 
-    fetch('http://example.com',{
-        method: "POST",
-        body: JSON.stringify(userData),
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        },
-      }).then(response => {
-        response.json().then(data =>{
-          console.log("Successful" + data);
-        })
-    })
-  }   
-
-  handleClearForm(e) {
+  handleClearForm = (e) => {
   
       e.preventDefault();
       this.setState({ 
@@ -124,51 +105,54 @@ class Support extends Component {
 
   render() {
     return (
-    
         <form className="container-fluid" onSubmit={this.handleFormSubmit}>
-       
-            <Input inputType={'text'}
-                   title= {'Full Name'} 
-                   name= {'name'}
-                   value={this.state.newUser.name} 
-                   placeholder = {'Enter your name'}
-                   handleChange = {this.handleInput}
-                   
-                   /> {/* Name of the user */}
-        
-          <Input inputType={'number'} 
-                name={'age'}
-                 title= {'Age'} 
-                 value={this.state.newUser.age} 
-                placeholder = {'Enter your age'}
-                 handleChange={this.handleAge} /> {/* Age */} 
+          <Input 
+            inputType={'text'}
+            title= {'Full Name'} 
+            name= {'name'}
+            value={this.state.newUser.name} 
+            placeholder = {'Enter your name'}
+            handleChange = {this.handleInput}
+          /> {/* Name of the user */}
 
+          <Input 
+            inputType={'number'} 
+            name={'age'}
+            title= {'Age'} 
+            value={this.state.newUser.age} 
+            placeholder = {'Enter your age'}
+            handleChange={this.handleAge} 
+          /> {/* Age */} 
 
-          <Select title={'Gender'}
-                  name={'gender'}
-                  options = {this.state.genderOptions} 
-                  value = {this.state.newUser.gender}
-                  placeholder = {'Select Gender'}
-                  handleChange = {this.handleInput}
-                  /> {/* Age Selection */}
-          <CheckBox  title={'Skills'}
-                  name={'skills'}
-                  options={this.state.skillOptions}
-                  selectedOptions = { this.state.newUser.skills}
-                  handleChange={this.handleCheckBox}
-                   /> {/* Skill */}
+          <Select 
+            title={'Gender'}
+            name={'gender'}
+            options = {this.state.genderOptions} 
+            value = {this.state.newUser.gender}
+            placeholder = {'Select Gender'}
+            handleChange = {this.handleInput}
+          /> {/* Age Selection */}
+
+          <CheckBox  
+            title={'Skills'}
+            name={'skills'}
+            options={this.state.skillOptions}
+            selectedOptions = { this.state.newUser.skills}
+            handleChange={this.handleCheckBox}
+          /> {/* Skill */}
+          
           <TextArea
             title={'About you.'}
             rows={10}
             value={this.state.newUser.about}
             name={'currentPetInfo'}
             handleChange={this.handleTextArea}
-            placeholder={'Describe your past experience and skills'} />{/* About you */}
+            placeholder={'Describe your past experience and skills'}  />{/* About you */}
 
           <Button 
-              action = {this.handleFormSubmit}
-              type = {'primary'} 
-              title = {'Submit'} 
+            action = {this.handleFormSubmit}
+            type = {'primary'} 
+            title = {'Submit'} 
             style={buttonStyle}
           /> { /*Submit */ }
           
@@ -178,15 +162,14 @@ class Support extends Component {
             title = {'Clear'}
             style={buttonStyle}
           /> {/* Clear the form */}
-          
+
         </form>
-  
     );
   }
 }
 
 const buttonStyle = {
-  margin : '10px 10px 10px 10px'
+  margin : '10px 20% 10px 20%'
 }
 
 export default Support;
