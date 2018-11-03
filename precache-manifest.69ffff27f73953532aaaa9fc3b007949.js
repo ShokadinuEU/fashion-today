@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/fashion-today/static/css/1.a2632b73.chunk.css"
   },
   {
-    "revision": "242a87d9f73e6c2adec0b2c3435f19a2",
+    "revision": "4ca7845f743b0d4c0322be4352534346",
     "url": "/fashion-today/index.html"
   }
 ];
