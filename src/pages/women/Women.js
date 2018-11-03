@@ -13,7 +13,7 @@ class WomenContent extends Component {
       error: null
     };
   }
-
+  
   componentDidMount(){
     this.setState({ isLoading: true });
     axios.get('./women.json')
