@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './menu.scss'
 
+
 const  Menu = () => {
     return (
       // top menu section
@@ -23,4 +24,4 @@ const  Menu = () => {
     )
 }
 
-export default Menu;
+export default Menu

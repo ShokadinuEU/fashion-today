@@ -8,34 +8,26 @@ class Products extends Component {
     super(props);
     this.state = {
       data: [],
-      isLoading: false,
       error: null
-    };
+    }
   }
 
   componentDidMount(){
-    this.setState({ isLoading: true });
     axios.get('./hotItems.json')
       .then(result => this.setState({
-        data: result.data,
-        isLoading: false 
+        data: result.data
       }))
       .catch(error => this.setState({ 
-        error, 
-        isLoading: false 
-      }));
+        error
+      }))
   }
 
   render() {
-    const { data, isLoading, error } = this.state
+    const { data, error } = this.state
 
-    if (error) {
-      return <p>{error.message}</p>;
-    }
-
-    if (isLoading) {
-      return <p>Loading ...</p>
-    }
+    const loadingCheck = error ? <p>{ error.message }</p> : 
+      <p>Loading ...</p>
+    // console.log(loadingCheck)
 
     return (
       <div className="products-main">
@@ -55,4 +47,5 @@ class Products extends Component {
     );
   }
 }
-export default Products;
+
+export default Products
