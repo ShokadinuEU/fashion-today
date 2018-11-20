@@ -1,15 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './menu.scss'
+import Login from './Login';
 
 
 const  Menu = () => {
     return (
       // top menu section
       <div className="main-menu">
-        <div className="brand"><Link to='/home' className="brand"> | Fashion Today | </Link></div>
-        <div className="shop-cart">
-        <div className="shop-cart-icon"></div>
+        <div className="menu-top">
+          <div className="menu-brand">
+            <Link to='/home' className="menu-brand-link" > | Fashion Today | </Link>
+          </div>
+          <div className="shop-cart">
+            <Login />
+            {/* <div className="shop-cart-icon"></div> */}
+          </div>
         </div>
         <div className="menu">
           <ul>
