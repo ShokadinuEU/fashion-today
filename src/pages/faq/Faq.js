@@ -1,10 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Faq extends Component {
-  render() {
+
+const Faq = () => {
     return (
       <div className="main-content">
+        <h1>Page under Construction</h1>
       </div>
     )
-  }
 }
+
+export default Faq

@@ -24,24 +24,27 @@ class Products extends Component {
 
   render() {
     const { data, error } = this.state
-
-    const loadingCheck = error ? <p>{ error.message }</p> : 
-      <p>Loading ...</p>
-    // console.log(loadingCheck)
+    const itemList = !error ? (
+      data.map(item => {
+        return (
+          <div key={item.id} className="item-unit">
+            <div className="item-image"></div>
+            <span className="item-detail">{item.name}</span>
+            <span className="item-detail">{item.price}</span>
+            <button className="buy-it">Buy It</button>
+          </div>
+        )
+      })
+    ) : (
+      <p>Loading ...</p> 
+    )
 
     return (
       <div className="products-main">
         <h1 className="products-header">-----Latest Products-----</h1>
         <hr className="style-eight"/>
         <div className="products-wrapper" id="go-to">
-          {data.map(item =>
-            <div key={item.id} className="item-unit">
-              <div className="item-image"></div>
-              <span className="item-detail">{item.name}</span>
-              <span className="item-detail">{item.price}</span>
-              <button className="buy-it">Buy It</button>
-            </div>
-          )}
+          { itemList }
         </div>
       </div>
     );

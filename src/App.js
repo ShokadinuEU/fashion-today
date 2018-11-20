@@ -9,7 +9,7 @@ import Faq from './pages/faq/Faq'
 
 import Menu from '../src/components/Menu/Menu'
 import Footer from '../src/components/Footer/Footer'
-import HomeButton from './components/Home/HomeButton'
+import HomeButton from './components/ScrollButton/HomeButton'
 
 class App extends Component {
 
