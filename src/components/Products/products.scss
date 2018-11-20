@@ -17,15 +17,14 @@
 // each individual item
 .item-unit {
   width: 210px;
-  padding: 0.5em 0.4em;
+  padding: 0.5em 0.1em;
   margin: 0.7em 0.35em;
   transition: all 1s ease-in-out;
 
   &:hover {
-    border-radius: 15px;
-    border: 2px solid green;
+    border-radius: 12px;
     background-color: rgb(209, 208, 124);
-    transition: all .5s ease-in-out;
+    transition: all 1s ease-in-out;
   }
 }
 
@@ -156,14 +155,19 @@
   }
   .item-unit {
     display: inline-grid;
-    height: 25em;
-    text-align: center;
+    height: 26em;
     padding: 0.5em 0.5em;
-    margin: 1em auto;
+    margin: 0.4em 0.2em;
+    max-height: 26em;
   }
   .buy-it {
     display: block;
     padding: 0.5em 1em;
+    &:hover {
+      padding: 0.4em 1em;
+      color: #ccc;
+      border-radius: 20px;
+    }
   }
   .item-detail {
     display: block;
@@ -220,7 +224,7 @@
     display: block;
     margin: 0.4em auto;
     text-align: center;
-    height: 21em;
+    height: 22.4em;
   }
 
   .buy-it {

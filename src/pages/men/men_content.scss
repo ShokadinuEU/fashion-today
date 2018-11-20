@@ -16,6 +16,7 @@
 }
 // each individual men item
 .men {
+  height: 26em;
   width: 200px;
   padding: 0.5em 0.4em;
   margin: 0.7em 0.35em;
@@ -23,7 +24,6 @@
 
   &:hover {
     border-radius: 15px;
-    border: 2px solid green;
     background-color: rgb(209, 208, 124);
     transition: all .5s ease-in-out;
   }
@@ -85,7 +85,6 @@
   }
   .men {
     display: inline-grid;
-    height: 25em;
     text-align: center;
     padding: 0.5em 0.5em;
     margin: 1em auto;
@@ -215,7 +214,7 @@
     display: block;
     margin: 0.4em auto;
     text-align: center;
-    height: 21em;
+    height: 22.5em;
   }
   .buy-it {
     justify-content: center;

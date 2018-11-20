@@ -73,9 +73,9 @@
   transition: all 1s ease-in-out;
 
   &:hover {
-    padding: 0.3em 0.5em;
+    padding: 0.5em 0.5em;
     border-radius: 15px;
-    border: 2px solid green;
+    // border: 2px solid green;
     background-color: rgb(209, 208, 124);
     transition: all .5s ease-in-out;
   }
@@ -212,10 +212,10 @@
   }
   .menu ul{
     display: flex;
+    padding-left: 0;
   }
   .menu-link {
     display: block;
-    float: left;
     padding: 1em 0.2em 0.2em 0.2em;
     font-size: 1em;
   }

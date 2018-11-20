@@ -3,3 +3,14 @@
   max-width: 720px;
   margin: 0 auto;
 }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .container-fluid {
+    width: 94%;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .btn {
+    margin: 20px 14% !important;
+  }
+}

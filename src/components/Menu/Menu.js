@@ -14,7 +14,6 @@ const  Menu = () => {
           </div>
           <div className="shop-cart">
             <Login />
-            {/* <div className="shop-cart-icon"></div> */}
           </div>
         </div>
         <div className="menu">
