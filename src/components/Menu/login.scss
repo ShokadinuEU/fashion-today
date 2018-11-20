@@ -5,12 +5,12 @@
   color: #333;
   font-weight: 600;
   font-size: 1.28rem;
-  line-height: 1;
   text-align: left;
   background: #e1e1e1;
   border-radius: 10px 10px 0 0;
   border-bottom: 0.6px solid rgb(156, 156, 156);
   padding: 1.5rem 3.14rem;
+  margin-top: 0;
 }
 
 .login-body {
@@ -68,16 +68,15 @@
   font-size: 0.85em;
   justify-content: space-between;
   margin-top: 1em;
+  margin-bottom: 2em;
   line-height: 2.5em;
 }
 
-.website-brand {
-  width: 8rem;
-  height: 2.2rem;
-  margin-left: 2em;
-  display: block;
-  cursor: pointer;
+.site-brand {
+  font-size: 1.4em;
+  font-weight: 600;
 }
+
 
 .new-user {
   display: flex;

@@ -65,11 +65,7 @@ class Login extends Component {
                 <hr/>
                 <div className="other-login-method">
                   <p>Login with your LinkedIn account details</p>
-                  <img className="website-brand" src="./data/images/logo/navbar/brand-logo.png" alt="site-brand"/>
-                </div>
-                <div className="new-user">
-                  <p>New to ShokadinuEU Studio?</p>
-                  <button>Sign Up</button>
+                  <span className="site-brand">| Fashion Today |</span>
                 </div>
                 <div className="facebook-login">
                   <p>Signed in with facebook before? </p>&nbsp;
