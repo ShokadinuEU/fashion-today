@@ -63,6 +63,16 @@
   }
 }
 
+.buy-it {
+  display: block;
+  padding: 0.5em 1em;
+  &:hover {
+    padding: 0.4em 1em;
+    color: #ccc;
+    border-radius: 20px;
+  }
+}
+
 .carousel-inner {
   height: 40vh;
   position: relative;
@@ -89,14 +99,10 @@
   }
   .item-unit{
     display: inline-grid;
-    height: 25em;
+    height: 26em;
     text-align: center;
     padding: 0.5em 0.5em;
     margin: 1em auto;
-  }
-  .buy-it {
-    display: block;
-    padding: 0.5em 1em;
   }
   .item-detail {
     display: block;
@@ -122,14 +128,10 @@
   }
   .item-unit {
     display: inline-grid;
-    height: 25em;
+    height: 26em;
     text-align: center;
     padding: 0.5em 0.5em;
     margin: 1em auto;
-  }
-  .buy-it {
-    display: block;
-    padding: 0.5em 1em;
   }
   .item-detail {
     display: block;
@@ -160,15 +162,6 @@
     margin: 0.4em 0.2em;
     max-height: 26em;
   }
-  .buy-it {
-    display: block;
-    padding: 0.5em 1em;
-    &:hover {
-      padding: 0.4em 1em;
-      color: #ccc;
-      border-radius: 20px;
-    }
-  }
   .item-detail {
     display: block;
     margin: 0.2em 0.2em;
@@ -193,14 +186,10 @@
   }
   .item-unit {
     display: inline-grid;
-    height: 25em;
+    height: 26em;
     text-align: center;
     padding: 0.5em 0.5em;
     margin: 1em auto;
-  }
-  .buy-it {
-    display: block;
-    padding: 0.5em 1em;
   }
   .item-detail {
     display: block;
@@ -225,11 +214,6 @@
     margin: 0.4em auto;
     text-align: center;
     height: 22.4em;
-  }
-
-  .buy-it {
-    justify-content: center;
-    text-align: center;
   }
 }
 
