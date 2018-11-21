@@ -10,8 +10,8 @@ const Home = () => {
       <Header />
       <Suspense fallback={<div>Loading Items...</div>}>
         <Products />
+        <Brands />
       </Suspense>
-      <Brands />
     </div>
     )
 }

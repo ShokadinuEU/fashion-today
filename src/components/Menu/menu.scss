@@ -75,7 +75,6 @@
   &:hover {
     padding: 0.5em 0.5em;
     border-radius: 15px;
-    // border: 2px solid green;
     background-color: rgb(209, 208, 124);
     transition: all .5s ease-in-out;
   }
@@ -108,17 +107,10 @@
   }
   .shop-cart {
     font-size: 1em;
-    padding: 0.2em 0.5em;
     border-radius: 12px;
     margin: 1em 1em 0 0;
     cursor: pointer;
   }
-  .menu-brand,
-  .shop-cart {
-    display: -webkit-inline-box;
-    justify-content: space-between;
-  }
-  
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -139,17 +131,10 @@
   }
   .shop-cart {
     font-size: 1em;
-    padding: 0.2em 0.5em;
     border-radius: 12px;
     margin: 1em 1em 0 0;
     cursor: pointer;
   }
-  .menu-brand,
-  .shop-cart {
-    display: -webkit-inline-box;
-    justify-content: space-between;
-  }
-  
 }
 
 @media (min-width: 801px) and (max-width: 1024px) {
@@ -194,15 +179,9 @@
   }
   .shop-cart {
     font-size: 1em;
-    padding: 0.2em 0.5em;
     border-radius: 12px;
     margin: 1em 1em 0 0;
     cursor: pointer;
-  }
-  .menu-brand,
-  .shop-cart {
-    display: -webkit-inline-box;
-    justify-content: space-between;
   }
 }
 
