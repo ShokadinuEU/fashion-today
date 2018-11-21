@@ -17,8 +17,7 @@
 // each individual item
 .item-unit {
   width: 210px;
-  padding: 0.5em 0.1em;
-  margin: 0.7em 0.35em;
+  padding: 0.5em 0.4em;
   transition: all 1s ease-in-out;
 
   &:hover {
@@ -35,6 +34,7 @@
 
 .item-image {
   height: 16.2em;
+  width: 200px;
   background-image: url('../../data/img/dataItems/products/image-sprite.jpg');
 }
 // loop through sprite image
@@ -101,8 +101,6 @@
     display: inline-grid;
     height: 26em;
     text-align: center;
-    padding: 0.5em 0.5em;
-    margin: 1em auto;
   }
   .item-detail {
     display: block;
@@ -130,8 +128,6 @@
     display: inline-grid;
     height: 26em;
     text-align: center;
-    padding: 0.5em 0.5em;
-    margin: 1em auto;
   }
   .item-detail {
     display: block;
@@ -158,9 +154,6 @@
   .item-unit {
     display: inline-grid;
     height: 26em;
-    padding: 0.5em 0.5em;
-    margin: 0.4em 0.2em;
-    max-height: 26em;
   }
   .item-detail {
     display: block;
@@ -188,8 +181,6 @@
     display: inline-grid;
     height: 26em;
     text-align: center;
-    padding: 0.5em 0.5em;
-    margin: 1em auto;
   }
   .item-detail {
     display: block;
@@ -212,8 +203,12 @@
   .item-unit {
     display: block;
     margin: 0.4em auto;
+    padding: 0.5em 0.4em;
     text-align: center;
-    height: 22.4em;
+    height: 23em;
+  }
+  .item-image {
+    width: 200px;
   }
 }
 

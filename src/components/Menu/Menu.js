@@ -10,7 +10,7 @@ const  Menu = () => {
       <div className="main-menu">
         <div className="menu-top">
           <div className="menu-brand">
-            <Link to='/home' className="menu-brand-link" > | Fashion Today | </Link>
+            <a href='https://shokadinueu.github.io/fashion-today/' className="menu-brand-link" > | Fashion Today | </a>
           </div>
           <div className="shop-cart">
             <Login />
