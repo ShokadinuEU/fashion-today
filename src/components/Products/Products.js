@@ -28,7 +28,9 @@ class Products extends Component {
       data.map( item => {
         return (
           <div key={item.id} className="item-unit">
-            <div className="item-image"></div>
+            <div className="item-image">
+              <div className="brand-items">{item.sold}</div>
+            </div>
             <span className="item-detail">{item.name}</span>
             <span className="item-detail">{item.price}</span>
             <button className="buy-it">Buy It</button>

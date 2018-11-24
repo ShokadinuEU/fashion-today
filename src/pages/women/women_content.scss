@@ -240,6 +240,7 @@
   outline: 0;
   padding-bottom: 0.5em;
   transition: all 1s;
+  cursor: default;
   &:hover {
     border-bottom: 2px solid rgb(219, 146, 9);
     transition: all 0.5s;
