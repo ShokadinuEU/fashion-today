@@ -3,7 +3,7 @@
 #->For this project i used ReactJS, CSS, HTML, Bootstrap, FontAwesome, Postman.<br />
 #->Photos are free from <a href="https://www.pexels.com/">Pexel.com</a><br />
 <br /><br />
-![intro](https://user-images.githubusercontent.com/35012587/48808173-e6fa6380-ed17-11e8-8c35-b941bf30e057.jpg)
+![intro](https://user-images.githubusercontent.com/35012587/48972452-8d00e300-f022-11e8-87e8-b98f95bd6cf8.jpg)
 <br /><br />
 #The process of building page was: <br/>
 #=> Postman to fetch data from <a href="https://www.facebook.com/">FaceBook</a> using PUT method 
