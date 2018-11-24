@@ -9,6 +9,7 @@ class MenContent extends Component {
     super(props);
     this.state = {
       data: [],
+      search: '',
       isLoading: false,
       error: null
     };
@@ -27,8 +28,19 @@ class MenContent extends Component {
       }));
   }
 
+  hanndleSearch = e => {
+    this.setState({
+      search: e.target.value
+    })
+  }
+
   render() {
-    const { data, isLoading, error } = this.state
+    const { isLoading, error } = this.state
+    let filterItems = this.state.data.filter(
+      item => {
+        return item.brand.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
+      }
+      )
 
     if (error) {
       return <p>{error.message}</p>;
@@ -43,10 +55,17 @@ class MenContent extends Component {
         <Header />
         <h1 className="products-header">-----Latest Products-----</h1>
         <hr className="style-eight"/>
+        <div className="filter-items-main">
+          <input type="text" placeholder="Look for a brand..." className="filter-items" 
+          value={this.state.search} 
+          onChange={this.hanndleSearch} />
+        </div>
         <div className="products-wrapper">
-          {data.map(item =>
+          {filterItems.map(item =>
             <div key={item.id} className="kids">
-              <div className="kids-image"></div>
+              <div className="kids-image">
+                <div className="brand-items">{item.brand}</div>
+              </div>
               <span className="kids-detail">{item.name}</span>
               <span className="kids-detail">{item.price}</span>
               <button className="buy-it">Buy It</button>
