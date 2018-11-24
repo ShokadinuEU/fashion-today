@@ -25,7 +25,7 @@ class Products extends Component {
   render() {
     const { data, error } = this.state
     const itemList = !error ? (
-      data.map(item => {
+      data.map( item => {
         return (
           <div key={item.id} className="item-unit">
             <div className="item-image"></div>

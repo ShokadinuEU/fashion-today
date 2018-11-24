@@ -43,6 +43,9 @@ class WomenContent extends Component {
         <Header />
         <h1 className="products-header">-----Latest Products-----</h1>
         <hr className="style-eight"/>
+        <div className="filter-items-main">
+          <input type="text" placeholder="Search for a product..." className="filter-items" />
+        </div>
         <div className="products-wrapper">
           {data.map(item =>
             <div key={item.id} className="women">

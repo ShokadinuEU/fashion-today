@@ -219,3 +219,45 @@
     text-align: center;
   }
 }
+
+// input filter items
+.filter-items-main {
+  margin-top: 3.5em;
+  margin-bottom: 1.4em;
+  display: flex;
+}
+
+.filter-items {
+  width: 75%;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5em;
+  font-weight: 600;
+  font-size: 1.4em;
+  text-align: center;
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  outline: 0;
+  padding-bottom: 0.5em;
+  transition: all 1s;
+  &:hover {
+    border-bottom: 2px solid rgb(219, 146, 9);
+    transition: all 0.5s;
+  }
+}
+.filter-items:hover::placeholder {
+  transition: all .6s;
+  color: rgb(219, 146, 9);
+}
+
+.filter-items:focus {
+  border: 0;
+  border-bottom: 2px solid green;
+  border-radius: 0;
+  transition: all 0.5s;
+}
+
+.filter-items:focus::placeholder {
+  transition: all .8s;
+  color: transparent;
+}
