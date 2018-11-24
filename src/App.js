@@ -15,8 +15,8 @@ class App extends Component {
 
   render() {
     return (
-      // <BrowserRouter>
-      <BrowserRouter basename="fashion-today">
+      // <BrowserRouter basename="fashion-today">
+      <BrowserRouter>
         <div>
           <div>
             <div className="main-content content">
