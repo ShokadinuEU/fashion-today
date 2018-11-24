@@ -42,6 +42,11 @@ class MenContent extends Component {
     }
   }
 
+  handleGoUpper = () => {
+    let scrollTop = document.querySelector('.products-header')
+    scrollTop.scrollIntoView()
+  }
+
   render() {
     const { isLoading, error } = this.state
     let filterItems = this.state.data.filter(
@@ -67,7 +72,8 @@ class MenContent extends Component {
           <input type="text" placeholder="Look for a brand..." className="filter-items" 
           value={this.state.search} 
           onChange={this.hanndleSearch}
-          onKeyDown={this.handleClearInput} />
+          onKeyDown={this.handleClearInput}
+          onKeyPress={this.handleGoUpper} />
         </div>
         <div className="products-wrapper">
           {filterItems.map(item =>
