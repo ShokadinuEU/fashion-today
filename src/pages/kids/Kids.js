@@ -34,6 +34,14 @@ class MenContent extends Component {
     })
   }
 
+  handleClearInput = (e) => {
+    if (e.keyCode === 27) {
+      this.setState({
+        search: ''
+      })
+    }
+  }
+
   render() {
     const { isLoading, error } = this.state
     let filterItems = this.state.data.filter(
@@ -58,7 +66,8 @@ class MenContent extends Component {
         <div className="filter-items-main">
           <input type="text" placeholder="Look for a brand..." className="filter-items" 
           value={this.state.search} 
-          onChange={this.hanndleSearch} />
+          onChange={this.hanndleSearch}
+          onKeyDown={this.handleClearInput} />
         </div>
         <div className="products-wrapper">
           {filterItems.map(item =>
