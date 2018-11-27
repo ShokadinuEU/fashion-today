@@ -120,6 +120,9 @@
 }
 
 @media (min-width: 280px) and (max-width: 480px) {
+  .carousel-inner {
+    max-height: 30vh;
+  }
   .header-text {
     margin-top: 1em;
     line-height: 0.3em;
@@ -138,20 +141,16 @@
     height: 33vh;
   }
   .carousel-inner {
-    height: 34vh;
     position: relative;
     width: 100%;
     overflow: hidden;
-    max-height: 370px;
+    max-height: 210px;
     border-radius: 10px;
+  }
+  .carousel, .slide {
+    max-height: 210px;
   }
   .carousel-indicators {
     display: none;
-  }
-  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
   }
 }

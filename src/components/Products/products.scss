@@ -193,12 +193,12 @@
 
 @media (min-width: 280px) and (max-width: 480px) {
   .products-main {
-    width: 100%;
-    display: block;
+    margin-top: 2em;
   }
   .products-wrapper {
     width: 100%;
     margin: 0 auto;
+    margin-top: 2em;
   }
   .item-unit {
     display: block;
